@@ -58,18 +58,18 @@ export default function DigitalMarketing() {
   <div className="absolute inset-0 bg-black/50"></div>
   <div className="relative z-10 px-6 max-w-4xl">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-      <h1 className="mt-4 text-5xl md:text-6xl font-extrabold leading-tight text-white">
+      <h1 className="mt-4 text-4xl font-extrabold mb-4 leading-tight text-white">
         {t('mindfulLiving.title')}
       </h1>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-      <p className="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
+      <p className="mt-6 text-xl text-white/80 max-w-3xl mx-auto">
         {t('mindfulLiving.description')}
       </p>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
       <div className="mt-8 flex gap-4 justify-center">
-              <a href="/contact" className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-indigo-500 text-white hover:bg-indigo-600 shadow-lg hover:shadow-xl">
+              <a href="/contact" className="btn-animate-strong inline-flex items-center rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 text-white shadow-lg hover:shadow-xl" style={{ backgroundColor: '#4CAF50' }}>
           {t('mindfulLiving.connectButton')}
         </a>
       </div>
@@ -99,44 +99,44 @@ export default function DigitalMarketing() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
-                <h1 className={`text-3xl md:text-4xl lg:text-5xl font-bold leading-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>
+                <h1 className={`text-4xl font-extrabold mb-4 ${isDark ? 'text-white' : 'text-gray-900'}`}>
           {t('mindfulLiving.title')}
         </h1>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-                <p className={`text-xl leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
+                <p className={`text-lg max-w-2xl ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
           {t('mindfulLiving.description')}
         </p>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                     <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Mindful Breathing</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                     <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Gentle Movement</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                     <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Daily Reflection</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                     <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Stress Reduction</span>
                   </div>
                 </div>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-4">
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                  <a href="/contact" className="btn-animate-strong inline-flex items-center justify-center px-8 py-4 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 bg-green-500 hover:bg-green-600">
                     {t('mindfulLiving.connectButton')}
                     <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </a>
-                  <a href="#faq" className="inline-flex items-center justify-center px-8 py-4 border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white font-semibold rounded-lg transition-all duration-300">
+                  <a href="#faq" className="inline-flex items-center justify-center px-8 py-4 border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white font-semibold rounded-lg transition-all duration-300">
                     Learn More
                   </a>
       </div>
@@ -161,12 +161,12 @@ export default function DigitalMarketing() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8">
               <div>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
-                <span className="inline-block px-4 py-2 text-sm font-medium text-white bg-indigo-500 rounded-full mb-6 shadow-sm">
+                <span className="inline-block px-4 py-2 text-sm font-medium text-white bg-green-500 rounded-full mb-6 shadow-sm">
                   MINDFUL LIVING FAQ
                 </span>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-                <h2 className={isDark ? 'text-4xl md:text-6xl font-bold text-white leading-tight' : 'text-4xl md:text-6xl font-bold text-black leading-tight'}>
+                <h2 className={isDark ? 'text-4xl font-extrabold text-white mb-4' : 'text-4xl font-extrabold text-gray-900 mb-4'}>
                   Common Questions About Mindful Living
                 </h2>
               </ScrollAnimation>
@@ -201,7 +201,7 @@ export default function DigitalMarketing() {
                 }
               ].map((faq, index) => (
                 <ScrollAnimation key={index} animation="fade-in" stagger={`scroll-stagger-${index + 2}`}>
-                  <div className={`${isDark ? 'bg-gray-900 rounded-xl border-2 border-gray-700 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-indigo-500' : 'bg-white rounded-xl border-2 border-gray-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-indigo-300'}`}>
+                  <div className={`${isDark ? 'bg-gray-900 rounded-xl border-2 border-gray-700 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-green-500' : 'bg-white rounded-xl border-2 border-gray-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-green-500'}`}>
                     <button
                       onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
                       className={`w-full text-left p-6 flex justify-between items-center ${isDark ? 'hover:bg-gray-800' : 'hover:bg-gray-50'} rounded-xl transition-colors duration-300`}
@@ -240,10 +240,10 @@ export default function DigitalMarketing() {
         <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`${isDark ? 'text-4xl font-bold text-white mb-4' : 'text-4xl font-bold text-gray-900 mb-4'}`}>What Our Members Say</h2>
+              <h2 className={`${isDark ? 'text-4xl font-extrabold text-white mb-4' : 'text-4xl font-extrabold text-gray-900 mb-4'}`}>What Our Members Say</h2>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className={`${isDark ? 'text-lg text-gray-300 max-w-2xl mx-auto' : 'text-lg text-gray-600 max-w-2xl mx-auto'}`}>Real stories from people who transformed their daily lives through mindful living</p>
+              <p className={`${isDark ? 'text-lg text-gray-300 max-w-2xl mx-auto' : 'text-lg text-gray-700 max-w-2xl mx-auto'}`}>Real stories from people who transformed their daily lives through mindful living</p>
             </ScrollAnimation>
             </div>
 
@@ -251,7 +251,7 @@ export default function DigitalMarketing() {
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
               <div className={`${isDark ? 'bg-gray-800 border border-gray-700' : 'bg-gray-50 border border-gray-200'} rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300`}>
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mr-4">
                     <span className="text-white font-bold text-lg">SM</span>
                   </div>
                   <div>
@@ -268,7 +268,7 @@ export default function DigitalMarketing() {
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-4">
               <div className={`${isDark ? 'bg-gray-800 border border-gray-700' : 'bg-gray-50 border border-gray-200'} rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300`}>
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mr-4">
                     <span className="text-white font-bold text-lg">MC</span>
                   </div>
                   <div>
@@ -285,7 +285,7 @@ export default function DigitalMarketing() {
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-5">
               <div className={`${isDark ? 'bg-gray-800 border border-gray-700' : 'bg-gray-50 border border-gray-200'} rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300`}>
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mr-4">
                     <span className="text-white font-bold text-lg">ER</span>
                   </div>
                   <div>
@@ -302,7 +302,7 @@ export default function DigitalMarketing() {
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-6">
               <div className={`${isDark ? 'bg-gray-800 border border-gray-700' : 'bg-gray-50 border border-gray-200'} rounded-xl p-8 shadow-lg hover:shadow-xl transition-all duration-300`}>
                 <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-indigo-600 rounded-full flex items-center justify-center mr-4">
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center mr-4">
                     <span className="text-white font-bold text-lg">JW</span>
                   </div>
                   <div>
@@ -324,10 +324,10 @@ export default function DigitalMarketing() {
         <div className="mx-auto max-w-7xl px-4">
             <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`${isDark ? 'text-4xl font-bold text-white mb-4' : 'text-4xl font-bold text-black mb-4'}`}>Mindful Living Practices</h2>
+              <h2 className={`${isDark ? 'text-4xl font-extrabold text-white mb-4' : 'text-4xl font-extrabold text-gray-900 mb-4'}`}>Mindful Living Practices</h2>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className={`${isDark ? 'text-lg text-gray-400 max-w-2xl mx-auto' : 'text-lg text-black max-w-2xl mx-auto'}`}>Simple, effective techniques to bring mindfulness into your daily life</p>
+              <p className={`${isDark ? 'text-lg text-gray-300 max-w-2xl mx-auto' : 'text-lg text-gray-700 max-w-2xl mx-auto'}`}>Simple, effective techniques to bring mindfulness into your daily life</p>
             </ScrollAnimation>
             </div>
     <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -362,17 +362,17 @@ export default function DigitalMarketing() {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <h2 className="text-5xl font-extrabold text-white mb-6 leading-tight">{t('digitalMarketing.ctaTitle')}</h2>
+            <h2 className="text-4xl font-extrabold mb-4 leading-tight text-white">{t('digitalMarketing.ctaTitle')}</h2>
     </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <p className="text-lg text-white max-w-2xl mx-auto mb-10">{t('digitalMarketing.ctaDescription')}</p>
+            <p className="text-xl max-w-2xl mx-auto text-white/90 leading-relaxed">{t('digitalMarketing.ctaDescription')}</p>
     </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
-      <div className="flex flex-col sm:flex-row gap-5 justify-center">
-              <button onClick={() => navigate('/contact')} className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-indigo-500 text-white hover:bg-indigo-600 shadow-lg hover:shadow-xl">
+      <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <button onClick={() => navigate('/contact')} className="btn-animate-strong inline-flex items-center justify-center rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 text-white shadow-lg hover:shadow-xl" style={{ backgroundColor: '#4CAF50' }}>
           {t('digitalMarketing.startProjectButton')}
         </button>
-              <button onClick={() => navigate('/services')} className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-white text-indigo-600 border-2 border-indigo-500 hover:bg-indigo-500 hover:text-white shadow-lg hover:shadow-xl">
+              <button onClick={() => navigate('/services')} className="btn-animate-strong inline-flex items-center justify-center rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-white/10 text-white border-2 border-white/30 backdrop-blur-sm hover:bg-white/20 shadow-lg hover:shadow-xl">
           {t('digitalMarketing.viewServicesButton')}
         </button>
       </div>

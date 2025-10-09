@@ -58,7 +58,7 @@ export default function SpaTherapies() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/63S3.mp4" type="video/mp4" />
+          <source src="/63S2.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 

@@ -6,19 +6,19 @@ const CARDS = [
     titleKey: 'wellnessServices.sportsTraining.title',
     descriptionKey: 'wellnessServices.sportsTraining.description',
     img: '/images/63S1.jpg',
-    href: '/contact',
+    href: '/services/sports-training',
   },
   {
     titleKey: 'wellnessServices.spaTherapies.title',
     descriptionKey: 'wellnessServices.spaTherapies.description',
     img: '/images/63S3.jpg',
-    href: '/contact',
+    href: '/services/spa-therapies',
   },
   {
     titleKey: 'wellnessServices.holisticHealing.title',
     descriptionKey: 'wellnessServices.holisticHealing.description',
     img: '/images/63S7.jpg',
-    href: '/contact',
+    href: '/services/holistic-healing',
   },
   {
     titleKey: 'wellnessServices.nutritionPlans.title',
@@ -30,13 +30,13 @@ const CARDS = [
     titleKey: 'wellnessServices.mindfulLiving.title',
     descriptionKey: 'wellnessServices.mindfulLiving.description',
     img: '/images/63s5.jpg',
-    href: '/contact',
+    href: '/services/mindful-living',
   },
   {
     titleKey: 'wellnessServices.wellnessEvents.title',
     descriptionKey: 'wellnessServices.wellnessEvents.description',
     img: '/images/63S6.jpg',
-    href: '/contact',
+    href: '/services/wellness-events',
   },
 ]
 

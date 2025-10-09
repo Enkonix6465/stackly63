@@ -58,18 +58,18 @@ export default function SportsTraining() {
         <div className="relative z-10 px-6 max-w-4xl">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
             <h1 className="mt-4 text-5xl md:text-6xl font-extrabold leading-tight text-white">
-              {t('websiteDevelopment.showcase.title')}
+              Transform Your Health Through Sports Training
             </h1>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
             <p className="text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-              {t('websiteDevelopment.showcase.subtitle')}
+              Achieve optimal health and wellness through personalized sports training programs designed to strengthen your body, mind, and spirit
             </p>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
             <div className="mt-8 flex gap-4 justify-center">
-              <a href="/contact" className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-indigo-500 text-white hover:bg-indigo-600 shadow-lg hover:shadow-xl">
-                {t('websiteDevelopment.showcase.connectButton')}
+              <a href="/contact" className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 text-white shadow-lg hover:shadow-xl" style={{ backgroundColor: '#4CAF50' }}>
+                Start Your Wellness Journey
               </a>
             </div>
           </ScrollAnimation>
@@ -97,45 +97,45 @@ export default function SportsTraining() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
-                <h1 className={`text-3xl md:text-4xl lg:text-5xl font-bold leading-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>
-                  {t('websiteDevelopment.hero.title')}
+                <h1 className={`text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight ${isDark ? 'text-white' : 'text-gray-900'}`}>
+                  Unlock Your Athletic Potential for a Healthier You
                 </h1>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
                 <p className={`text-xl leading-relaxed ${isDark ? 'text-gray-300' : 'text-gray-600'}`}>
-                  {t('websiteDevelopment.hero.description')}
+                  Our sports training programs are designed as a holistic wellness service to improve your overall health, boost your fitness levels, enhance mental clarity, and help you achieve a balanced lifestyle. Experience the transformative power of structured athletic training for complete mind-body wellness.
                 </p>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Professional Coaching</span>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Improve Physical Health</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Personalized Training</span>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Boost Mental Wellness</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Scientific Methods</span>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Build Healthy Habits</span>
                   </div>
                   <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Proven Results</span>
+                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                    <span className={`font-medium ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>Enhance Overall Wellbeing</span>
                   </div>
                 </div>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-4">
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                    Start Training Today
+                  <a href="/contact" className="inline-flex items-center justify-center px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                    Begin Your Health Journey
                     <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                   </a>
-                  <a href="#faq" className="inline-flex items-center justify-center px-8 py-4 border-2 border-indigo-600 text-indigo-600 hover:bg-indigo-600 hover:text-white font-semibold rounded-lg transition-all duration-300">
-                    Learn More
+                  <a href="#faq" className="inline-flex items-center justify-center px-8 py-4 border-2 border-green-500 text-green-600 hover:bg-green-500 hover:text-white font-bold rounded-lg transition-all duration-300">
+                    Discover Wellness Benefits
                   </a>
                 </div>
               </ScrollAnimation>
@@ -143,7 +143,7 @@ export default function SportsTraining() {
 
             <ScrollAnimation animation="slide-in-right" stagger="scroll-stagger-2">
               <div className="relative">
-                <img src="/images/63H1.jpg" alt="Elite Sports Training" className="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl" />
+                <img src="/images/63S12.jpg" alt="Health and Wellness Through Sports Training" className="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-2xl" />
               </div>
             </ScrollAnimation>
           </div>
@@ -156,20 +156,20 @@ export default function SportsTraining() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-8">
             <div>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-1">
-                <span className="inline-block px-4 py-2 text-sm font-medium text-white bg-indigo-500 rounded-full mb-6 shadow-sm">
-                  {t('websiteDevelopment.faq.tag')}
+                <span className="inline-block px-4 py-2 text-sm font-medium text-white bg-green-500 rounded-full mb-6 shadow-sm">
+                  Health & Wellness FAQ
                 </span>
               </ScrollAnimation>
               <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-2">
-                <h2 className={isDark ? 'text-4xl md:text-6xl font-bold text-white leading-tight' : 'text-4xl md:text-6xl font-bold text-black leading-tight'}>
-                  {t('websiteDevelopment.faq.title')}
+                <h2 className={isDark ? 'text-3xl md:text-4xl font-extrabold text-white leading-tight' : 'text-3xl md:text-4xl font-extrabold text-black leading-tight'}>
+                  Frequently Asked Questions
                 </h2>
               </ScrollAnimation>
               <div className="mt-8">
                 <ScrollAnimation animation="slide-in-left" stagger="scroll-stagger-3">
                   <div className="relative">
                     <div className="relative overflow-hidden rounded-xl shadow-lg">
-                      <img src="/images/63H2.jpg" alt="Sports training session" className="w-full h-96 object-cover transition-transform duration-300 hover:scale-105" />
+                      <img src="/images/63H2.jpg" alt="Wellness-focused sports training session" className="w-full h-96 object-cover transition-transform duration-300 hover:scale-105" />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/10 to-transparent"></div>
                     </div>
                   </div>
@@ -179,7 +179,7 @@ export default function SportsTraining() {
             <div className="space-y-4">
               {t('websiteDevelopment.faq.questions', { returnObjects: true }).map((faq, index) => (
                 <ScrollAnimation key={index} animation="fade-in" stagger={`scroll-stagger-${index + 2}`}>
-                  <div className={`${isDark ? 'bg-gray-900 rounded-xl border-2 border-gray-700 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-indigo-500' : 'bg-white rounded-xl border-2 border-gray-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-indigo-300'}`}>
+                  <div className={`${isDark ? 'bg-gray-900 rounded-xl border-2 border-gray-700 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-green-500' : 'bg-white rounded-xl border-2 border-gray-200 shadow-sm transition-all duration-300 hover:shadow-lg hover:border-green-300'}`}>
                     <button
                       onClick={() => setOpenIndex(openIndex === index ? -1 : index)}
                       className={`w-full text-left p-6 flex justify-between items-center ${isDark ? 'hover:bg-gray-800' : 'hover:bg-gray-50'} rounded-xl transition-colors duration-300`}
@@ -217,10 +217,10 @@ export default function SportsTraining() {
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`${isDark ? 'text-4xl font-bold text-white mb-4' : 'text-4xl font-bold text-gray-900 mb-4'}`}>{t('websiteDevelopment.testimonials.title')}</h2>
+              <h2 className={`${isDark ? 'text-4xl font-extrabold text-white mb-4' : 'text-4xl font-extrabold text-gray-900 mb-4'}`}>Wellness Success Stories</h2>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className={`${isDark ? 'text-lg text-gray-300 max-w-2xl mx-auto' : 'text-lg text-gray-600 max-w-2xl mx-auto'}`}>{t('websiteDevelopment.testimonials.subtitle')}</p>
+              <p className={`${isDark ? 'text-lg text-gray-300 max-w-2xl mx-auto' : 'text-lg text-gray-600 max-w-2xl mx-auto'}`}>See how our sports training programs have transformed the health and wellness of our clients</p>
             </ScrollAnimation>
           </div>
 
@@ -296,15 +296,15 @@ export default function SportsTraining() {
         </div>
       </section>
 
-      {/* Technologies */}
+      {/* Wellness Programs */}
       <section className={isDark ? 'py-20 bg-gray-800' : 'py-20 bg-gray-100'}>
         <div className="mx-auto max-w-7xl px-4">
           <div className="text-center mb-16">
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-              <h2 className={`${isDark ? 'text-4xl font-bold text-white mb-4' : 'text-4xl font-bold text-black mb-4'}`}>{t('websiteDevelopment.technologies.title')}</h2>
+              <h2 className={`${isDark ? 'text-4xl font-extrabold text-white mb-4' : 'text-4xl font-extrabold text-black mb-4'}`}>Our Wellness Programs</h2>
             </ScrollAnimation>
             <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-              <p className={`${isDark ? 'text-lg text-gray-400 max-w-2xl mx-auto' : 'text-lg text-black max-w-2xl mx-auto'}`}>{t('websiteDevelopment.technologies.subtitle')}</p>
+              <p className={`${isDark ? 'text-lg text-gray-400 max-w-2xl mx-auto' : 'text-lg text-black max-w-2xl mx-auto'}`}>Comprehensive training programs designed to improve your health and overall wellness</p>
             </ScrollAnimation>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -330,18 +330,18 @@ export default function SportsTraining() {
         <div className="absolute inset-0 bg-black/50"></div>
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-1">
-            <h2 className="text-5xl font-extrabold text-white mb-6 leading-tight">{t('websiteDevelopment.cta.title')}</h2>
+            <h2 className="text-5xl font-extrabold text-white mb-6 leading-tight">Ready to Transform Your Health?</h2>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-2">
-            <p className="text-lg text-white max-w-2xl mx-auto mb-10">{t('websiteDevelopment.cta.subtitle')}</p>
+            <p className="text-lg text-white max-w-2xl mx-auto mb-10">Start your wellness journey today with our personalized sports training programs designed to make you healthier, stronger, and more balanced</p>
           </ScrollAnimation>
           <ScrollAnimation animation="fade-in" stagger="scroll-stagger-3">
             <div className="flex flex-col sm:flex-row gap-5 justify-center">
-              <button onClick={() => navigate('/contact')} className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-indigo-500 text-white hover:bg-indigo-600 shadow-lg hover:shadow-xl">
-                {t('websiteDevelopment.cta.startProjectButton')}
+              <button onClick={() => navigate('/contact')} className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 text-white shadow-lg hover:shadow-xl" style={{ backgroundColor: '#4CAF50' }}>
+                Start Your Wellness Journey
               </button>
-              <button onClick={() => navigate('/services')} className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-white text-indigo-600 border-2 border-indigo-500 hover:bg-indigo-500 hover:text-white shadow-lg hover:shadow-xl">
-                {t('websiteDevelopment.cta.viewServicesButton')}
+              <button onClick={() => navigate('/services')} className="btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 bg-white text-green-600 border-2 border-green-500 hover:bg-green-500 hover:text-white shadow-lg hover:shadow-xl">
+                Explore All Wellness Services
               </button>
             </div>
           </ScrollAnimation>
