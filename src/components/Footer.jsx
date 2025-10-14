@@ -92,12 +92,12 @@ export default function Footer() {
             </div>
             <ul className="space-y-3">
               {[
-                { name: t('footer.websiteDevelopment'), path: '/services/sports-training' },
-                { name: t('footer.ecommerceSolutions'), path: '/services/spa-therapies' },
+                { name: t('footer.sportsTraining'), path: '/services/sports-training' },
+                { name: t('footer.spaTherapies'), path: '/services/spa-therapies' },
                 { name: t('footer.holisticHealing'), path: '/services/holistic-healing' },
-                { name: t('footer.digitalMarketing'), path: '/services/mindful-living' },
-                { name: t('footer.ongoingSupport'), path: '/services/wellness-events' },
-                { name: t('wellnessServices.nutritionPlans.title'), path: '/services/nutrition-plans' }
+                { name: t('footer.nutritionPlans'), path: '/services/nutrition-plans' },
+                { name: t('footer.mindfulLiving'), path: '/services/mindful-living' },
+                { name: t('footer.wellnessEvents'), path: '/services/wellness-events' }
               ].map((service) => (
                 <li key={service.name}>
                   <button

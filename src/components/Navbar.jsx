@@ -98,12 +98,12 @@ export default function Navbar({ user }) {
                 <div className="h-px bg-gray-200 dark:bg-gray-700 mx-2 my-1" />
                 
                 {[
-                  {label: t('nav.websiteDevelopment'), path:'/services/sports-training'},
-                  {label: t('nav.ecommerceSolutions'), path:'/services/spa-therapies'},
+                  {label: t('nav.sportsTraining'), path:'/services/sports-training'},
+                  {label: t('nav.spaTherapies'), path:'/services/spa-therapies'},
                   {label: t('nav.holisticHealing'), path:'/services/holistic-healing'},
-                  {label: t('nav.digitalMarketing'), path:'/services/mindful-living'},
-                  {label: t('nav.ongoingSupport'), path:'/services/wellness-events'},
-                  {label: t('wellnessServices.nutritionPlans.title'), path:'/services/nutrition-plans'}
+                  {label: t('nav.nutritionPlans'), path:'/services/nutrition-plans'},
+                  {label: t('nav.mindfulLiving'), path:'/services/mindful-living'},
+                  {label: t('nav.wellnessEvents'), path:'/services/wellness-events'}
                 ].map((item) => (
                   <DropdownMenuItem 
                     key={item.label} 

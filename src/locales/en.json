@@ -6,12 +6,12 @@
     "about": "About Us",
     "services": "Services",
     "allServices": "All Services",
-    "websiteDevelopment": "Sports Training",
-    "ecommerceSolutions": "Spa Therapies",
+    "sportsTraining": "Sports Training",
+    "spaTherapies": "Spa Therapies",
     "holisticHealing": "Holistic Healing",
-    "contentCopywriting": "Content & Copywriting",
-    "digitalMarketing": "Mindful Living",
-    "ongoingSupport": "Wellness Events",
+    "nutritionPlans": "Nutrition Plans",
+    "mindfulLiving": "Mindful Living",
+    "wellnessEvents": "Wellness Events",
     "blog": "Blog",
     "contact": "Contact Us",
     "logout": "Log Out"
@@ -35,12 +35,12 @@
     "services": "Services",
     "blog": "Blog",
     "contact": "Contact",
-    "websiteDevelopment": "Sports Training",
-    "ecommerceSolutions": "Spa Therapies",
+    "sportsTraining": "Sports Training",
+    "spaTherapies": "Spa Therapies",
     "holisticHealing": "Holistic Healing",
-    "contentCopywriting": "Wellness Coaching",
-    "digitalMarketing": "Mindful Living",
-    "ongoingSupport": "Wellness Events",
+    "nutritionPlans": "Nutrition Plans",
+    "mindfulLiving": "Mindful Living",
+    "wellnessEvents": "Wellness Events",
     "phone": "+192 123 4567",
     "email": "info@wellnesshub.com",
     "address": "123 Wellness Street, Health City, Country",
@@ -296,10 +296,11 @@
       "startProjectButton": "Start Your Wellness Journey"
     }
   },
-  "digitalMarketing": {
+  "mindfulLiving": {
     "title": "Mindful Living",
     "description": "Create balance, reduce stress, and cultivate awareness through simple daily mindfulness practices.",
     "connectButton": "Talk to a Wellness Coach",
+    "learnMore": "Learn More",
     "servicesTitle": "MINDFUL LIVING",
     "strategiesTitle": "Build a calmer, more intentional life",
     "strategiesDescription": "We guide you with practical, evidence-based tools to bring mindfulness into your everyday routines—breathwork, movement, journaling, and gentle habit-building.",
@@ -327,21 +328,93 @@
     "optimizeScaleTitle": "Deepen & Flourish",
     "optimizeScaleDescription": "Strengthen your awareness, expand your toolkit, and maintain balance long-term.",
 
+    "benefits": {
+      "mindfulBreathing": "Mindful Breathing",
+      "gentleMovement": "Gentle Movement",
+      "dailyReflection": "Daily Reflection",
+      "stressReduction": "Stress Reduction"
+    },
+
+    "faq": {
+      "badge": "MINDFUL LIVING FAQ",
+      "title": "Common Questions About Mindful Living",
+      "questions": {
+        "q1": {
+          "question": "What is mindful living?",
+          "answer": "Mindful living is the practice of bringing conscious awareness to your daily activities, thoughts, and emotions. It involves being present in the moment and cultivating a sense of calm and clarity in your everyday life."
+        },
+        "q2": {
+          "question": "How much time do I need to practice mindfulness?",
+          "answer": "Even just 5-10 minutes a day can make a significant difference. We'll help you start with small, manageable practices that fit into your existing routine and gradually build from there."
+        },
+        "q3": {
+          "question": "Do I need any special equipment or experience?",
+          "answer": "No special equipment is needed! Mindful living can be practiced anywhere, anytime. Our approach focuses on simple techniques like breathing exercises, gentle movement, and reflection that anyone can learn."
+        },
+        "q4": {
+          "question": "How will mindful living help with stress?",
+          "answer": "Mindful practices help activate your body's relaxation response, reduce cortisol levels, and improve your ability to handle challenging situations with greater calm and clarity."
+        },
+        "q5": {
+          "question": "Can mindful living improve my relationships?",
+          "answer": "Absolutely! By practicing mindfulness, you develop greater emotional awareness and empathy, which helps you communicate more effectively, listen more deeply, and respond thoughtfully rather than react impulsively in your relationships."
+        }
+      }
+    },
+
+    "testimonials": {
+      "title": "What Our Members Say",
+      "subtitle": "Real stories from people who transformed their daily lives through mindful living",
+      "member1": {
+        "name": "Sarah Martinez",
+        "role": "Marketing Professional",
+        "content": "The mindful breathing exercises completely changed how I handle work stress. I feel more centered and focused throughout my day. The gentle approach made it easy to stick with."
+      },
+      "member2": {
+        "name": "Michael Chen",
+        "role": "Software Engineer",
+        "content": "I was skeptical about mindfulness, but the daily reflection practices helped me sleep better and feel more balanced. The techniques are simple but incredibly effective."
+      },
+      "member3": {
+        "name": "Emily Rodriguez",
+        "role": "Teacher",
+        "content": "The gentle movement sequences and breathing exercises have been life-changing. I feel more patient and present with my students, and my anxiety has decreased significantly."
+      },
+      "member4": {
+        "name": "James Wilson",
+        "role": "Healthcare Worker",
+        "content": "Working in healthcare can be overwhelming, but the mindful living practices help me stay grounded. The journaling prompts and breathing techniques are perfect for busy schedules."
+      }
+    },
+
+    "practices": {
+      "title": "Mindful Living Practices",
+      "subtitle": "Simple, effective techniques to bring mindfulness into your daily life",
+      "breathingExercises": "Breathing Exercises",
+      "gentleMovement": "Gentle Movement",
+      "dailyReflection": "Daily Reflection",
+      "mindfulEating": "Mindful Eating",
+      "bodyScan": "Body Scan",
+      "gratitudePractice": "Gratitude Practice",
+      "walkingMeditation": "Walking Meditation",
+      "stressRelief": "Stress Relief"
+    },
+
+    "ctaTitle": "Begin Your Mindful Living Journey Today",
+    "ctaDescription": "Transform your daily life with guided mindfulness practices and expert support",
+    "startProjectButton": "Start Your Journey",
+    "viewServicesButton": "View All Programs",
+
     "digitalMarketingSolutionsTitle": "Mindful Living Tools",
     "digitalMarketingSolutionsDescription": "A practical toolkit to bring mindfulness into real life—simple, flexible, and sustainable.",
-    "seoOptimization": "Mindful breathing routines",
-    "socialMediaMarketing": "Gentle movement sequences",
-    "contentMarketing": "Guided meditations",
-    "emailCampaigns": "Daily journaling prompts",
-    "payPerClick": "Micro-habits for balance",
-    "analyticsReporting": "Weekly reflection templates",
-    "brandStrategy": "Personal intention setting",
-    "influencerMarketing": "Community and shared practice",
-
-    "ctaTitle": "Ready to live more mindfully?",
-    "ctaDescription": "Start small, feel better—one breath, one step, one mindful moment at a time.",
-    "startProjectButton": "Start My Mindful Journey",
-    "viewServicesButton": "Explore All Programs"
+    "breathingRoutines": "Mindful breathing routines",
+    "movementSequences": "Gentle movement sequences",
+    "guidedMeditations": "Guided meditations",
+    "journalingPrompts": "Daily journaling prompts",
+    "microHabits": "Micro-habits for balance",
+    "reflectionTemplates": "Weekly reflection templates",
+    "intentionSetting": "Personal intention setting",
+    "communityPractice": "Community and shared practice"
   },
   "home2": {
     "showcase": {
@@ -371,11 +444,11 @@
           "title": "Wellness Coaching",
           "category": "Life coaching & habit formation support"
         },
-        "digitalMarketing": {
+        "mindfulLiving": {
           "title": "Mindful Living",
           "category": "Mindfulness, balance, and intentional everyday wellbeing"
         },
-        "ecommerceSolutions": {
+        "holisticHealing": {
           "title": "Holistic Wellness",
           "category": "Integrated mind-body wellness approaches"
         }
@@ -1041,91 +1114,6 @@
       "notSupported": "Your browser does not support the video tag."
     }
   },
-  "websiteDevelopment": {
-    "showcase": {
-      "title": "Sports Training",
-      "subtitle": "Professional sports training programs designed to maximize your athletic potential.",
-      "connectButton": "connect"
-    },
-    "hero": {
-      "tagline": "SPORTS TRAINING SERVICES",
-      "title": "Unlock Your Athletic Potential",
-      "description": "We specialize in comprehensive sports training programs tailored for athletes of all levels. From individual skill development to team performance optimization, our training methods are scientifically-backed and personalized — helping you achieve peak performance and reach your athletic goals."
-    },
-    "faq": {
-      "tag": "Sports Training FAQ",
-      "title": "Sports Training FAQ",
-      "subtitle": "",
-      "questions": [
-        {
-          "question": "What sports do you provide training for?",
-          "answer": "We provide comprehensive training for a wide range of sports including football, basketball, tennis, swimming, track and field, martial arts, and many more. Our programs are tailored to each specific sport's requirements and your individual goals."
-        },
-        {
-          "question": "Do I need to be an experienced athlete to start training?",
-          "answer": "Not at all! Our training programs are designed for athletes of all levels, from complete beginners to professional competitors. We assess your current fitness level and create a personalized program that matches your skill level and goals."
-        },
-        {
-          "question": "How often should I train to see results?",
-          "answer": "Training frequency depends on your sport, goals, and current fitness level. Generally, we recommend 3-5 sessions per week for optimal results. We'll work with you to create a sustainable training schedule that fits your lifestyle."
-        },
-        {
-          "question": "What equipment do I need for training?",
-          "answer": "Equipment requirements vary by sport and training phase. We provide most training equipment at our facility, and we'll guide you on any personal equipment you might need. We focus on using proper equipment to ensure safety and effectiveness."
-        },
-        {
-          "question": "How do you prevent training injuries?",
-          "answer": "Injury prevention is a core part of our training philosophy. We include proper warm-ups, cool-downs, technique training, and progressive overload in all programs. Our trainers are certified in injury prevention and first aid."
-        }
-      ]
-    },
-    "testimonials": {
-      "title": "Athlete Testimonials",
-      "subtitle": "Hear from athletes who transformed their performance with our training programs",
-      "clients": {
-        "athlete1": {
-          "name": "Marcus Thompson",
-          "role": "Professional Basketball Player",
-          "content": "The personalized training program took my game to the next level. I improved my vertical jump by 4 inches and increased my shooting accuracy significantly. The coaches are world-class!"
-        },
-        "athlete2": {
-          "name": "Sarah Chen",
-          "role": "Tennis Champion",
-          "content": "After 6 months of training, I won my first regional tournament. The technical coaching and mental preparation techniques were game-changers for my performance."
-        },
-        "athlete3": {
-          "name": "David Rodriguez",
-          "role": "Track & Field Athlete",
-          "content": "The strength and conditioning program helped me break my personal records in both 100m and 200m sprints. The recovery protocols are exceptional."
-        },
-        "athlete4": {
-          "name": "Emma Wilson",
-          "role": "Swimming Champion",
-          "content": "The swimming technique refinement and endurance training improved my times dramatically. I qualified for nationals thanks to this program!"
-        }
-      }
-    },
-    "technologies": {
-      "title": "Training Methodologies",
-      "subtitle": "Proven training techniques and modern equipment for optimal athletic development",
-      "services": {
-        "strength training": "Strength Training",
-        "cardio training": "Cardio Training",
-        "flexibility": "Flexibility",
-        "sports nutrition": "Sports Nutrition",
-        "mental training": "Mental Training",
-        "recovery": "Recovery",
-        "performance analysis": "Performance Analysis",
-        "team sports": "Team Sports"
-      }
-    },
-    "cta": {
-      "title": "Let's Achieve Athletic Excellence",
-      "subtitle": "From assessment to peak performance, we craft training experiences that inspire greatness.",
-      "startProjectButton": "Start Training",
-      "viewServicesButton": "View Services"
-    }
-  },
   "spaTherapies": {
     "showcase": {
       "title": "Spa Therapies",
@@ -1135,7 +1123,15 @@
     "hero": {
       "tagline": "SPA THERAPIES SERVICES",
       "title": "Rejuvenate Your Wellbeing",
-      "description": "We specialize in comprehensive spa therapy programs tailored for complete relaxation and wellness. From deep tissue massage to aromatherapy treatments, our therapeutic services are designed to reduce stress, improve circulation, and restore balance — helping you achieve optimal health and inner peace."
+      "description": "We specialize in comprehensive spa therapy programs tailored for complete relaxation and wellness. From deep tissue massage to aromatherapy treatments, our therapeutic services are designed to reduce stress, improve circulation, and restore balance — helping you achieve optimal health and inner peace.",
+      "features": {
+        "professionalTherapists": "Professional Therapists",
+        "personalizedTreatments": "Personalized Treatments",
+        "holisticApproach": "Holistic Approach",
+        "relaxingEnvironment": "Relaxing Environment"
+      },
+      "bookSessionButton": "Book Your Session",
+      "learnMoreButton": "Learn More"
     },
     "faq": {
       "tag": "Spa Therapies FAQ",
@@ -1192,7 +1188,15 @@
     },
       "services": {
       "title": "Spa Therapy Services",
-      "subtitle": "Professional wellness treatments designed to restore balance and promote healing"
+      "subtitle": "Professional wellness treatments designed to restore balance and promote healing",
+      "deepTissueMassage": "Deep Tissue Massage",
+      "aromatherapy": "Aromatherapy",
+      "hotStoneTherapy": "Hot Stone Therapy",
+      "facialTreatments": "Facial Treatments",
+      "bodyWraps": "Body Wraps",
+      "reflexology": "Reflexology",
+      "couplesMassage": "Couples Massage",
+      "wellnessPackages": "Wellness Packages"
     },
     "cta": {
       "title": "Let's Restore Your Inner Balance",
@@ -1283,8 +1287,15 @@
       "tagline": "HOLISTIC HEALING SERVICES",
       "title": "Awaken Your Inner Healer",
       "description": "We specialize in comprehensive holistic healing programs that address the whole person — mind, body, and spirit. From energy healing and chakra balancing to crystal therapy and spiritual guidance, our transformative services are designed to restore balance, promote healing, and awaken your highest potential.",
+      "features": {
+        "energyHealing": "Energy Healing",
+        "chakraBalancing": "Chakra Balancing",
+        "crystalTherapy": "Crystal Therapy",
+        "spiritualGuidance": "Spiritual Guidance"
+      },
       "getStartedButton": "Begin Your Journey",
-      "viewServicesButton": "View Services"
+      "viewServicesButton": "View Services",
+      "learnMoreButton": "Learn More"
     },
     "faq": {
       "tag": "Holistic Healing FAQ",
@@ -1310,10 +1321,6 @@
         {
           "question": "Are holistic healing practices safe and effective?",
           "answer": "Yes, holistic healing practices are generally safe when performed by trained practitioners. Our healers are certified and experienced professionals who use gentle, non-invasive techniques. While these practices complement traditional medicine, they should not replace necessary medical treatment."
-        },
-        {
-          "question": "How many sessions will I need to see results?",
-          "answer": "The number of sessions varies depending on your individual needs and goals. Some people experience immediate benefits after one session, while others may need 3-6 sessions for deeper healing. We'll work with you to create a personalized healing plan and track your progress along the way."
         }
       ]
     },
@@ -1345,7 +1352,15 @@
     },
       "services": {
       "title": "Holistic Healing Services",
-      "subtitle": "Ancient wisdom meets modern healing for complete mind-body-spirit wellness"
+      "subtitle": "Ancient wisdom meets modern healing for complete mind-body-spirit wellness",
+      "energyHealing": "Energy Healing",
+      "chakraBalancing": "Chakra Balancing",
+      "crystalTherapy": "Crystal Therapy",
+      "reikiHealing": "Reiki Healing",
+      "meditationGuidance": "Meditation Guidance",
+      "soundTherapy": "Sound Therapy",
+      "auraCleansing": "Aura Cleansing",
+      "spiritualCounseling": "Spiritual Counseling"
     },
     "cta": {
       "title": "Begin Your Healing Journey Today",
@@ -1523,47 +1538,6 @@
         "fitness": "Fitness"
       }
     }
-  },
-  "digitalMarketing": {
-    "title": "Digital Marketing",
-    "description": "Social media campaigns, ads, and email funnels that grow your audience.",
-    "connectButton": "connect",
-    "servicesTitle": "DIGITAL MARKETING SERVICES",
-    "strategiesTitle": "Drive Growth with Data-Driven",
-    "strategiesDescription": "We help brands boost their online presence with customized digital marketing campaigns. From SEO and content marketing to social media and paid ads, our strategies are designed to attract, engage, and convert your audience — delivering measurable results and sustainable growth.",
-    "strategicTitle": "Strategic Digital Marketing",
-    "strategicDescription": "I develop comprehensive digital marketing strategies that increase your online presence, engage your target audience, and drive measurable business growth. From social media management to paid advertising, every campaign is optimized for results.",
-    "dataDriven": "Data-driven marketing strategies",
-    "multiChannel": "Multi-channel campaign management",
-    "roiFocused": "ROI-focused campaign optimization",
-    "marketingServicesTitle": "Marketing Services",
-    "socialMediaManagement": "Social media management",
-    "ppcGoogleAds": "PPC and Google Ads",
-    "emailMarketing": "Email marketing campaigns",
-    "contentMarketing": "Content marketing strategy",
-    "analyticsReporting": "Analytics and reporting",
-    "marketingProcessTitle": "Our Marketing Process",
-    "marketingProcessDescription": "A proven step-by-step approach to help your brand grow",
-    "researchStrategyTitle": "Research & Strategy",
-    "researchStrategyDescription": "Analyzing your market, audience, and competitors to craft a winning strategy",
-    "contentCreationTitle": "Content Creation",
-    "contentCreationDescription": "Producing engaging content, ads, and creatives that attract and convert",
-    "campaignExecutionTitle": "Campaign Execution",
-    "campaignExecutionDescription": "Running data-driven ads and campaigns across the right digital channels",
-    "optimizeScaleTitle": "Optimize & Scale",
-    "optimizeScaleDescription": "Tracking results and scaling your campaigns for growth",
-    "digitalMarketingSolutionsTitle": "Digital Marketing Solutions",
-    "digitalMarketingSolutionsDescription": "Data-driven strategies and tools to grow your online presence, reach the right audience, and maximize ROI",
-    "seoOptimization": "SEO Optimization",
-    "socialMediaMarketing": "Social Media Marketing",
-    "emailCampaigns": "Email Campaigns",
-    "payPerClick": "Pay-Per-Click (PPC)",
-    "brandStrategy": "Brand Strategy",
-    "influencerMarketing": "Influencer Marketing",
-    "ctaTitle": "Let's Build Something Extraordinary",
-    "ctaDescription": "From concept to launch, we craft digital experiences that inspire action.",
-    "startProjectButton": "Start Your Project",
-    "viewServicesButton": "View Services"
   },
   "ongoingSupport": {
     "showcase": {
@@ -2354,17 +2328,6 @@
       "description": "Group events that inspire healthy habits and community."
     }
   },
-  "mindfulLiving": {
-    "title": "Embrace Mindful Living",
-    "description": "Cultivate inner peace, reduce stress, and enhance your well‑being through intentional practices.",
-    "strategiesTitle": "Practices for a Balanced Life",
-    "strategiesDescription": "Our Mindful Living programs integrate mindfulness into daily routines, fostering calm, clarity, and sustainable well‑being.",
-    "connectButton": "Start Your Mindful Journey",
-    "ctaTitle": "Ready to Embrace a Mindful Life?",
-    "ctaDescription": "Connect with our coaches and begin a path toward peace, clarity, and resilience.",
-    "startProjectButton": "Begin Your Mindful Journey",
-    "viewServicesButton": "Explore All Programs"
-  },
   "wellnessProgress": {
     "title": "Improve Your Life",
     "description": "Building healthy habits across movement, balance, and nutrition improves energy, reduces stress, and supports long‑term wellness. Track your weekly progress and keep momentum.",
@@ -2438,5 +2401,96 @@
         "cta": "Get Started"
       }
     ]
+  },
+  "sportsTraining": {
+    "showcase": {
+      "title": "Health Through Sports Training",
+      "subtitle": "Personalized programs for body, mind, and spirit",
+      "startButton": "Start Now"
+    },
+    "hero": {
+      "title": "Unlock Your Athletic Potential",
+      "description": "Our sports training programs are designed as a holistic wellness service to improve your overall health, boost your fitness levels, enhance mental clarity, and help you achieve a balanced lifestyle. Experience the transformative power of structured athletic training for complete mind-body wellness.",
+      "benefits": {
+        "physicalHealth": "Improve Physical Health",
+        "mentalWellness": "Boost Mental Wellness",
+        "healthyHabits": "Build Healthy Habits",
+        "overallWellbeing": "Enhance Overall Wellbeing"
+      },
+      "getStartedButton": "Get Started",
+      "learnMoreButton": "Learn More"
+    },
+    "faq": {
+      "badge": "Health & Wellness FAQ",
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "What sports do you provide training for?",
+          "answer": "We provide comprehensive training for a wide range of sports including football, basketball, tennis, swimming, track and field, martial arts, and many more. Our programs are tailored to each specific sport's requirements and your individual goals."
+        },
+        {
+          "question": "Do I need to be an experienced athlete to start training?",
+          "answer": "Not at all! Our training programs are designed for athletes of all levels, from complete beginners to professional competitors. We assess your current fitness level and create a personalized program that matches your skill level and goals."
+        },
+        {
+          "question": "How often should I train to see results?",
+          "answer": "Training frequency depends on your sport, goals, and current fitness level. Generally, we recommend 3-5 sessions per week for optimal results. We'll work with you to create a sustainable training schedule that fits your lifestyle."
+        },
+        {
+          "question": "What equipment do I need for training?",
+          "answer": "Equipment requirements vary by sport and training phase. We provide most training equipment at our facility, and we'll guide you on any personal equipment you might need. We focus on using proper equipment to ensure safety and effectiveness."
+        },
+        {
+          "question": "How do you prevent training injuries?",
+          "answer": "Injury prevention is a core part of our training philosophy. We include proper warm-ups, cool-downs, technique training, and progressive overload in all programs. Our trainers are certified in injury prevention and first aid."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "Wellness Success Stories",
+      "subtitle": "Real transformations from our training programs",
+      "clients": {
+        "athlete1": {
+          "name": "Marcus Thompson",
+          "role": "Professional Basketball Player",
+          "content": "The personalized training program took my game to the next level. I improved my vertical jump by 4 inches and increased my shooting accuracy significantly. The coaches are world-class!"
+        },
+        "athlete2": {
+          "name": "Sarah Chen",
+          "role": "Tennis Champion",
+          "content": "After 6 months of training, I won my first regional tournament. The technical coaching and mental preparation techniques were game-changers for my performance."
+        },
+        "athlete3": {
+          "name": "David Rodriguez",
+          "role": "Track & Field Athlete",
+          "content": "The strength and conditioning program helped me break my personal records in both 100m and 200m sprints. The recovery protocols are exceptional."
+        },
+        "athlete4": {
+          "name": "Emma Wilson",
+          "role": "Swimming Champion",
+          "content": "The swimming technique refinement and endurance training improved my times dramatically. I qualified for nationals thanks to this program!"
+        }
+      }
+    },
+    "programs": {
+      "title": "Our Training Programs",
+      "subtitle": "Designed for your health and wellness goals",
+      "list": [
+        { "name": "Strength Training" },
+        { "name": "Cardio Training" },
+        { "name": "Flexibility" },
+        { "name": "Sports Nutrition" },
+        { "name": "Mental Training" },
+        { "name": "Recovery" },
+        { "name": "Performance Analysis" },
+        { "name": "Team Sports" }
+      ]
+    },
+    "cta": {
+      "title": "Transform Your Health Today",
+      "subtitle": "Personalized training for a healthier, stronger you",
+      "getStartedButton": "Get Started",
+      "viewServicesButton": "View All Services"
+    }
   }
 }
