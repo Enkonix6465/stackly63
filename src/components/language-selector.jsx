@@ -22,18 +22,29 @@ export function LanguageSelector({ variant = 'default' }) {
   
   // Different styles for different variants (icon-only)
   const buttonStyles = variant === 'login' 
-    ? "inline-flex items-center justify-center hover:text-white text-white/80 transition-colors p-2 rounded-md hover:bg-white/20"
+    ? "inline-flex items-center justify-center hover:text-gray-800 dark:hover:text-white transition-colors p-2 rounded-md hover:bg-gray-200/50 dark:hover:bg-gray-700/50"
     : "inline-flex items-center justify-center hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors p-2 rounded-md hover:bg-black/5 dark:hover:bg-white/5";
+
+  // Get current theme for inline styling
+  const isDark = document.documentElement.classList.contains('dark');
 
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <button
           className={buttonStyles}
+          style={{
+            color: isDark ? '#ffffff' : '#374151'
+          }}
           aria-label={t('common.language')}
           title={t('common.language')}
         >
-          <Globe className="h-5 w-5" />
+          <Globe 
+            className="h-5 w-5" 
+            style={{
+              color: isDark ? '#ffffff' : '#374151'
+            }}
+          />
           <span className="sr-only">{currentLanguageData.name}</span>
         </button>
       </DropdownMenuTrigger>

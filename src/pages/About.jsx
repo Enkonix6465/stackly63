@@ -107,15 +107,15 @@ export default function About() {
       {[{
         t: t('about.mission.trust.title'), 
         d: t('about.mission.trust.description'), 
-        icon: <svg xmlns="http://www.w3.org/2000/svg" width={45} height={45} viewBox="0 0 36 36"><path fill="#ef9645" d="M16.428 30.331a2.31 2.31 0 0 0 3.217-.568a.8.8 0 0 0-.197-1.114l-1.85-1.949l4.222 2.955a1.497 1.497 0 0 0 2.089-.369a1.5 1.5 0 0 0-.369-2.089l-3.596-3.305l5.375 3.763a1.497 1.497 0 0 0 2.089-.369a1.5 1.5 0 0 0-.369-2.089l-4.766-4.073l5.864 4.105a1.497 1.497 0 0 0 2.089-.369a1.5 1.5 0 0 0-.369-2.089L4.733 11.194l-3.467 5.521c-.389.6-.283 1.413.276 1.891l7.786 6.671q.533.456 1.107.859z"></path><path fill="#ffdc5d" d="M29.802 21.752L18.5 13.601l-.059-.08l.053-.08l.053-.053l.854.469c.958.62 3.147 1.536 4.806 1.536c1.135 0 1.815-.425 2.018-1.257a1.41 1.41 0 0 0-1.152-1.622a6.8 6.8 0 0 1-2.801-1.091l-.555-.373c-.624-.421-1.331-.898-1.853-1.206c-.65-.394-1.357-.585-2.163-.585c-1.196 0-2.411.422-3.585.83l-1.266.436a5.2 5.2 0 0 1-1.696.271c-1.544 0-3.055-.586-4.516-1.152l-.147-.058a1.39 1.39 0 0 0-1.674.56L1.35 15.669a1.36 1.36 0 0 0 .257 1.761l7.785 6.672c.352.301.722.588 1.1.852l6.165 4.316a2 2 0 0 0 2.786-.491a.803.803 0 0 0-.196-1.115l-1.833-1.283a.424.424 0 0 1-.082-.618a.42.42 0 0 1 .567-.075l3.979 2.785a1.4 1.4 0 0 0 1.606-2.294l-3.724-2.606a.424.424 0 0 1-.082-.618a.423.423 0 0 1 .567-.075l5.132 3.593a1.4 1.4 0 0 0 1.606-2.294l-4.868-3.407a.42.42 0 0 1-.081-.618a.377.377 0 0 1 .506-.066l5.656 3.959a1.4 1.4 0 0 0 1.606-2.295"></path><path fill="#ef9645" d="M16.536 27.929c-.07.267-.207.498-.389.681l-1.004.996a1.5 1.5 0 0 1-1.437.396a1.5 1.5 0 0 1-.683-2.512l1.004-.996a1.5 1.5 0 0 1 1.437-.396a1.5 1.5 0 0 1 1.072 1.831M5.992 23.008l1.503-1.497a1.5 1.5 0 0 0-.444-2.429a1.495 1.495 0 0 0-1.674.31l-1.503 1.497a1.5 1.5 0 0 0 .445 2.429a1.5 1.5 0 0 0 1.673-.31m5.204.052a1.5 1.5 0 1 0-2.122-2.118L6.072 23.94a1.5 1.5 0 1 0 2.122 2.118zm2.25 3a1.5 1.5 0 0 0-.945-2.555a1.49 1.49 0 0 0-1.173.44L9.323 25.94a1.5 1.5 0 0 0 .945 2.556c.455.036.874-.141 1.173-.44zm16.555-4.137l.627-.542l-6.913-10.85l-12.27 1.985a1.507 1.507 0 0 0-1.235 1.737c.658 2.695 6.003.693 8.355-.601z"></path><path fill="#ffcc4d" d="M16.536 26.929c-.07.267-.207.498-.389.681l-1.004.996a1.5 1.5 0 0 1-1.437.396a1.5 1.5 0 0 1-.683-2.512l1.004-.996a1.5 1.5 0 0 1 1.437-.396a1.5 1.5 0 0 1 1.072 1.831M5.992 22.008l1.503-1.497a1.5 1.5 0 0 0-.444-2.429a1.5 1.5 0 0 0-1.674.31l-1.503 1.497a1.5 1.5 0 0 0 .445 2.429a1.5 1.5 0 0 0 1.673-.31m5.204.052a1.5 1.5 0 1 0-2.122-2.118L6.072 22.94a1.5 1.5 0 1 0 2.122 2.118zm2.25 3a1.5 1.5 0 0 0-.945-2.555a1.49 1.49 0 0 0-1.173.44L9.323 23.94a1.5 1.5 0 0 0 .945 2.556c.455.036.874-.141 1.173-.44zm21.557-7.456a1.45 1.45 0 0 0 .269-1.885l-.003-.005l-3.467-6.521a1.49 1.49 0 0 0-1.794-.6c-1.992.771-4.174 1.657-6.292.937l-1.098-.377c-1.948-.675-4.066-1.466-6-.294c-.695.409-1.738 1.133-2.411 1.58a6.9 6.9 0 0 1-2.762 1.076a1.5 1.5 0 0 0-1.235 1.737c.613 2.512 5.3.908 7.838-.369a.97.97 0 0 1 1.002.081l11.584 8.416z"></path></svg>
+        icon: <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 32 32"><g fill="none"><path fill="#ffc83d" d="M11.406 6.156c-5.275-.65-7.156 2-8.062 3.219c-2.469 3.64-.985 7.64.812 9.563c0 0 10.094 9.828 10.375 10.093s.946 1.172 2.547.914c1.398-.225 1.797-1.914 1.797-1.914s1.032.842 2.516 0c1.156-.656 1.109-1.968 1.109-1.968s1.238.62 2.563-.5c1.192-1.01.453-2.782.453-2.782s1.07.176 1.828-.656c1.025-1.125.672-2.547 0-3.187L19.625 10.5l-.594-3.125z"></path><path fill="#d67d00" d="m26.707 22.593l-2.226-2.257a.5.5 0 1 0-.712.703l1.764 1.788l-.017-.046s.582.096 1.191-.188m-2.729 3.557l-2.31-2.563a.5.5 0 0 0-.743.67l1.66 1.841c.199.076.73.232 1.393.053m-3.402 2.2l-1.806-1.913a.5.5 0 1 0-.727.687l.904.957c.199.13.795.45 1.629.269m-2.173.703c-.759.202-2.167.265-3.137-.773l-.776.71l.041.04q.044.042.1.1c.328.34 1.01 1.046 2.447.814c.622-.1 1.046-.49 1.325-.892"></path><path fill="#f59f00" d="M6.375 6.813c-1.687 2.166-4.287 7.775.313 11.625L5.24 19.993l-1.084-1.055C2.36 17.016.875 13.016 3.344 9.375l.04-.055c.525-.706 1.366-1.839 2.95-2.567z"></path><path fill="#d67d00" d="M17.25 23.688c1.203 1.39-.3 3.162-1 3.906L5.669 16.584c1.974-2.002 3.278-2.203 4.16-1.334c.88.869.468 1.484.468 1.484s1.194-.678 2.453.563c1.26 1.241.39 2.187.39 2.187s1.3-.234 2.22.797c1.03 1.157.374 2.5.374 2.5s.79.068 1.516.907"></path><path fill="#ffc83d" d="M12.438 8c3.234-1.297 8.14-1.953 10.39-1.984c1.531 0 3.481.37 5.547 2.797c3.3 3.874.828 8.296-1.125 10.093V17.5s-7.506-6.536-7.75-6.766c-.45-.425-2.302-.296-2.5-.234c-.604.188-1.65.5-3 1c-1.098.407-1.969.078-2.328-.766c-.36-.843-.842-2.09.765-2.734"></path><path fill="#d67d00" d="M28.31 17.71a8.4 8.4 0 0 1-1.06 1.196c-2.76-2.406-8.378-7.325-8.828-7.75s-.974-.406-1.172-.344A79 79 0 0 0 13.75 12c-1.098.407-2.203-.422-2.562-1.266c-.33-.771-.356-1.879.87-2.556l.632-.277l.05-.019c-1.953 1.468-.228 3.262 1.385 3.056c.567-.073 1.5-.266 2.406-.5c.36-.094.713-.259 1.046-.414c.625-.293 1.18-.552 1.58-.243c1.5 1.165 5.976 4.968 9.154 7.929"></path><path fill="#ffc83d" d="M8.82 16.879a2.203 2.203 0 0 0-3.09-.398L3.812 18.1c-.883.735-1.112 2.11-.467 3.002c.584.808 1.48 1.142 2.303.908c-.365.835-.334 1.903.367 2.49c.655.547 1.464.922 2.275.669c-.078.535.08 1.121.63 1.705c.52 .551 1.276.826 2.087.643c-.107.572.074 1.208.743 1.853c.819.79 2.08.858 3.265-.23l.772-.9c.62-.78 1.478-2.136.196-3.288c-.443-.398-.952-.619-1.481-.62c.287-.7.282-1.558-.55-2.38c-.52-.513-1.157-.736-1.86-.568c.38-.808.371-1.633-.39-2.385c-.691-.683-1.543-1.007-2.643-.39c.194-.596.148-1.228-.24-1.731"></path><path fill="#d67d00" d="M9.034 17.242L4.31 21.907c.418 .186.873.229 1.31.112l3.469-3.426l-.029.016c.15-.459.156-.94-.026-1.367m3.212 2.584L6.96 25.085c.425.171.878.226 1.332.085l3.807-3.786l-.005.001c.245-.52.328-1.048.153-1.559m2.326 3.071l-4.918 4.498c.404.177.865.231 1.345.125l3.513-3.213c.17-.427.23-.912.06-1.41"></path></g></svg>
       }, {
         t: t('about.mission.quality.title'), 
         d: t('about.mission.quality.description'), 
-        icon: <svg xmlns="http://www.w3.org/2000/svg" width={45} height={45} viewBox="0 0 512 512"><path fill="#ffb636" d="m252.5 381l-128 49c-5.9 2.2-12.1-2.3-11.8-8.6l7-136.9c.1-2.1-.6-4.2-1.9-5.9L31.6 172c-4-4.9-1.6-12.2 4.5-13.9l132.4-35.6c2.1-.6 3.9-1.9 5-3.7L248.3 4c3.4-5.3 11.2-5.3 14.6 0l74.8 114.9c1.2 1.8 3 3.1 5 3.7l132.4 35.6c6.1 1.6 8.5 9 4.5 13.9l-86.1 106.6c-1.3 1.7-2 3.8-1.9 5.9l7 136.9c.3 6.3-5.9 10.8-11.8 8.6l-128-49c-2.1-.8-4.3-.8-6.3-.1"></path><path fill="#ffd469" d="m456.1 51.7l-41-41c-1.2-1.2-2.8-1.7-4.4-1.5s-3.1 1.2-3.9 2.6l-42.3 83.3c-1.2 2.1-.8 4.6.9 6.3c1 1 2.4 1.5 3.7 1.5c.9 0 1.8-.2 2.6-.7L454.9 60c1.4-.8 2.4-2.2 2.6-3.9c.3-1.6-.3-3.2-1.4-4.4m-307 43.5l-42.3-83.3c-.8-1.4-2.2-2.4-3.9-2.6c-1.6-.2-3.3.3-4.4 1.5l-41 41c-1.2 1.2-1.7 2.8-1.5 4.4s1.2 3.1 2.6 3.9l83.3 42.3c.8.5 1.7.7 2.6.7c1.4 0 2.7-.5 3.7-1.5c1.7-1.8 2-4.4.9-6.4m140.7 410l-29-88.8c-.2-.9-.7-1.7-1.3-2.3c-1-1-2.3-1.5-3.7-1.5c-2.4 0-4.4 1.6-5.1 3.9l-29 88.8c-.4 1.6-.1 3.3.9 4.6s2.5 2.1 4.2 2.1h57.9c1.6 0 3.2-.8 4.2-2.1c1.1-1.4 1.4-3.1.9-4.7"></path></svg>
+        icon: <svg xmlns="http://www.w3.org/2000/svg" width={72} height={72} viewBox="0 0 72 72"><path fill="#fcea2b" d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"></path><path fill="none" stroke="#000" strokeLinecap="round" strokeLinejoin="round" strokeMiterlimit={10} strokeWidth={2} d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"></path></svg>
       }, {
         t: t('about.mission.collaboration.title'), 
         d: t('about.mission.collaboration.description'), 
-        icon: <svg xmlns="http://www.w3.org/2000/svg" width={45} height={45} viewBox="0 0 48 48"><g fill="none" strokeLinecap="round" strokeWidth={4}><path stroke="#000" strokeLinejoin="round" d="M33 38H22V30H36V22H44V38H39L36 41L33 38Z"></path><path fill="#2f88ff" stroke="#000" strokeLinejoin="round" d="M4 6H36V30H17L13 34L9 30H4V6Z"></path><path stroke="#fff" d="M19 18H20"></path><path stroke="#fff" d="M26 18H27"></path><path stroke="#fff" d="M12 18H13"></path></g></svg>
+        icon: <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48"><g fill="none" strokeLinecap="round" strokeWidth={4}><path fill="#2f88ff" stroke="#000" strokeLinejoin="round" d="M4 6H44V36H29L24 41L19 36H4V6Z"></path><path stroke="#fff" d="M23 21H25.0025"></path><path stroke="#fff" d="M33.001 21H34.9999"></path><path stroke="#fff" d="M13.001 21H14.9999"></path></g></svg>
       }].map((item, index) => (
         <ScrollAnimation 
           key={item.t} 
@@ -125,8 +125,8 @@ export default function About() {
           <div className={`rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border ${
             isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
           }`}>
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-green-500">
-              <span className="text-white font-bold">{index + 1}</span>
+            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+              {item.icon}
             </div>
             <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{item.t}</h3>
             <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>{item.d}</p>
@@ -163,20 +163,15 @@ export default function About() {
         <div className="flex gap-4">
           <div className="relative group">
             <img
-              src="/images/healthcare.jpg"
-              alt="Mindful Wellness Practice"
+              src="/images/63S1.jpg"
+              alt="Yoga and Meditation Practice"
               className="w-32 h-24 md:w-40 md:h-32 rounded-lg object-cover shadow-lg group-hover:scale-105 transition-transform duration-300"
             />
-            <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-amber-100 rounded-full flex items-center justify-center shadow-lg">
-              <svg className="w-4 h-4 text-amber-600" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-              </svg>
-            </div>
           </div>
           <div className="relative group">
             <img
-              src="/images/platform.jpg"
-              alt="Wellness Community"
+              src="/images/63S2.jpg"
+              alt="Health and Wellness Lifestyle"
               className="w-32 h-24 md:w-40 md:h-32 rounded-lg object-cover shadow-lg group-hover:scale-105 transition-transform duration-300"
             />
           </div>
@@ -191,8 +186,8 @@ export default function About() {
           <div className={`rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border ${
             isDark ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-200'
           }`}>
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-green-500">
-              <span className="text-white font-bold">1</span>
+            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48"><g fill="none" strokeLinejoin="round" strokeWidth={4}><path fill="#2f88ff" stroke="#000" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"></path><path stroke="#fff" strokeLinecap="round" d="M16 24L22 30L34 18"></path></g></svg>
             </div>
             <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.wellnessProcess.steps.step1.title')}</h3>
             <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
@@ -203,8 +198,8 @@ export default function About() {
           <div className={`rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border ${
             isDark ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-200'
           }`}>
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-green-500">
-              <span className="text-white font-bold">2</span>
+            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width={128} height={128} viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.05 7.05 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.03 7.03 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.05 7.05 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"></path><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"></path><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"></path></svg>
             </div>
             <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.wellnessProcess.steps.step2.title')}</h3>
             <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
@@ -215,8 +210,8 @@ export default function About() {
           <div className={`rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border ${
             isDark ? 'bg-gray-900 border-gray-700' : 'bg-white border-gray-200'
           }`}>
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-green-500">
-              <span className="text-white font-bold">3</span>
+            <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+              <svg xmlns="http://www.w3.org/2000/svg" width={128} height={128} viewBox="0 0 128 128"><path fill="#84b0c1" d="M23.91 104.02c-6.5-6.63-6.5-17.21 0-23.84l18.74-18.74c2.04-2.04 4.72-3.57 7.52-4.33s5.74-.76 8.41-.13c2.8.76 5.48 2.17 7.65 4.21l.25.25c6.63 6.63 6.63 17.21 0 23.84l-18.74 18.74c-6.62 6.63-17.33 6.63-23.83 0m53.03-53.03c-12.36-12.36-32.63-12.36-45 0L13.33 69.73c-12.36 12.36-12.36 32.63 0 45s32.63 12.36 45 0l18.74-18.74c12.23-12.37 12.23-32.63-.13-45"></path><path fill="#2f7889" d="M66.86 48.48c3.36-1.69 6.57-.51 6.57-.51c-6.94-5.13-14.51-6.59-21.03-6.18c-.04.05-.07.1-.11.16c-2.86 4.39-3.5 10.19-1.72 15.07c2.68-.66 5.46-.64 8-.03c1.04.28 1.83.55 3.39 1.28c.01-.01-.54-7.05 4.9-9.79m-20.1 9.98c.13-.97.19-1.95.25-2.93c.28-4.22 1-8.42 2.14-12.49c.08-.29.16-.6.24-.91c-3.09.49-6.12 1.43-8.97 2.83c-4.44 5.73-2.98 13.15 2.23 16.49c1.19-1.19 2.59-2.2 4.11-2.99"></path><path fill="#84b0c1" d="M104.09 23.98c6.5 6.63 6.5 17.21 0 23.84L85.35 66.56c-2.04 2.04-4.72 3.57-7.52 4.33s-5.74.76-8.41.13c-2.8-.76-5.48-2.17-7.65-4.21l-.25-.25c-6.63-6.63-6.63-17.21 0-23.84l18.74-18.74c6.62-6.63 17.33-6.63 23.83 0M51.06 77.01c12.36 12.36 32.63 12.36 45 0l18.61-18.74c12.36-12.36 12.36-32.63 0-45s-32.63-12.36-45 0L50.94 32.01c-12.24 12.37-12.24 32.63.12 45"></path><path fill="#a8e3f0" d="M50.45 39.42c.04-.03.08-.07.12-.1c.53-.46 1.12-.9 1.81-1.02s1.5.19 1.74.85c.18.49.02 1.03-.15 1.52c-2.63 7.95-4.74 18.04-2.18 26.27c.25.8.49 1.83-.18 2.33c-.39.3-.97.25-1.4.02c-4.7-2.54-5.52-9.42-5.74-14.14c-.26-5.96 1.39-11.7 5.98-15.73"></path><path fill="#2f7889" d="M71.32 71.34c-.64-.08-1.32-.21-1.32-.21s-.1 4.27-3.51 7.81c-3.78 3.92-7.55 3.82-7.55 3.82c1.99 1.15 5.96 2.34 7.4 2.68l.15-.15c3.83-3.84 5.43-9 4.83-13.95m19.44-10.19l-5.33 5.33c1.33 5.94.97 12.18-1.09 17.94c2.59-.92 5.08-2.19 7.4-3.8c3.83-6.56 2.99-14.31-.98-19.47"></path><path fill="#a8e3f0" d="M79.89 70.01c-.63-1.59-1.86-3.2-3.4-3.05c-.96.09-2.45.99-2.35 3.74c.07 2.13.88 4.21-.28 7c-1.7 4.08-1.31 5.18-.9 5.83c.45.71 1.28 1.03 2.05 1.02c2.03-.01 3.71-1.87 4.63-3.91c1.49-3.26 1.58-7.29.25-10.63m-30.64 38.17c.64-.53 2.3-2.3 3.07-1.18c-.28 3.08-2.65 5.59-5.25 7.27c-3.2 2.07-6.99 3.29-10.8 3.18c-3.16-.09-8.4-1.37-10.24-4.3c-1.5-2.38 1.67-2.79 3.43-2.13c6.27 2.39 13.36 2.44 19.79-2.84"></path></svg>
             </div>
             <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.wellnessProcess.steps.step3.title')}</h3>
             <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
@@ -235,6 +230,7 @@ export default function About() {
         className={`py-20 transition-colors duration-500 ${
           isDark ? 'bg-gray-900' : 'bg-white'
         }`}
+        dir="ltr"
       >
         <div className="mx-auto max-w-6xl px-4">
           <ScrollAnimation animation="slide-up" stagger="scroll-stagger-1">
@@ -246,12 +242,12 @@ export default function About() {
             </div>
           </ScrollAnimation>
           
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid md:grid-cols-2 gap-16 items-stretch">
             
             {/* Left Content */}
-            <div className="space-y-8">
+            <div className="space-y-8 h-full">
               <ScrollAnimation animation="slide-up" stagger="scroll-stagger-2">
-                <div className={`rounded-2xl p-8 shadow-lg border ${
+                <div className={`rounded-2xl p-8 shadow-lg border h-full flex flex-col justify-between ${
                   isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
                 }`}>
                   <div className="space-y-6">
@@ -271,6 +267,36 @@ export default function About() {
                       <p>
                         {t('about.wellnessExpert.expertDescription2')}
                       </p>
+                      <ul className={`mt-4 list-disc pl-5 space-y-2 ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+                        <li>{t('about.wellnessExpert.highlights.personalizedPlans', 'Personalized plans tailored to your lifestyle')}</li>
+                        <li>{t('about.wellnessExpert.highlights.dataDriven', 'Data‑driven progress tracking and insights')}</li>
+                        <li>{t('about.wellnessExpert.highlights.coaching', 'Weekly coaching and accountability')}</li>
+                      </ul>
+
+                      
+
+                      {/* Certifications */}
+                      <div className="mt-6">
+                        <h4 className={`text-sm font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.wellnessExpert.certifications.title', 'Certifications')}</h4>
+                        <ul className="space-y-1">
+                          {[t('about.wellnessExpert.certifications.item1', 'NASM-CPT – Certified Personal Trainer'),
+                            t('about.wellnessExpert.certifications.item2', 'Precision Nutrition L1 Coach'),
+                            t('about.wellnessExpert.certifications.item3', 'Mindfulness-Based Stress Reduction (MBSR)')
+                          ].map((c, i) => (
+                            <li key={i} className="flex items-center gap-2">
+                              <span className={`inline-block w-1.5 h-1.5 rounded-full ${isDark ? 'bg-green-400' : 'bg-green-600'}`}></span>
+                              <span className={`${isDark ? 'text-gray-300' : 'text-gray-700'} text-sm`}>{c}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Quote */}
+                      <div className={`mt-6 p-4 rounded-lg border ${isDark ? 'border-gray-700 bg-gray-800/50' : 'border-gray-200 bg-gray-50'}`}>
+                        <p className={`text-sm italic ${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+                          {t('about.wellnessExpert.quote', '“Small, consistent actions compound into life‑changing results.”')}
+                        </p>
+                      </div>
                     </div>
                     
                     <div className="pt-4">
@@ -284,17 +310,16 @@ export default function About() {
             </div>
 
             {/* Right Content - Expert Image */}
-            <div className="relative">
+            <div className="h-full">
               <ScrollAnimation animation="slide-up" stagger="scroll-stagger-3">
-                <div className="relative">
-                  {/* Main Image */}
-                  <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                <div className={`overflow-hidden rounded-2xl shadow-lg border h-full ${
+                  isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
+                }`}>
                     <img
                       src="/images/63A4.jpg"
                       alt="Dr. Sarah Johnson - Wellness Expert"
-                      className="w-full h-[600px] md:h-[700px] object-cover"
+                    className="w-full h-full object-cover"
                     />
-                  </div>
                 </div>
               </ScrollAnimation>
             </div>
@@ -371,16 +396,25 @@ export default function About() {
                 animation="slide-up" 
                 stagger={`scroll-stagger-${index + 4}`}
               >
-                <div className={`rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border ${
-                  isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
-                }`}>
-                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4 bg-green-500">
-                    <span className="text-white font-bold">{index + 1}</span>
+                <div className="rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow border bg-white/10 border-white/30 text-white">
+                  <div className="w-12 h-12 rounded-xl flex items-center justify-center mb-4">
+                    {index === 0 && (
+                      <svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><g fill="none"><path fill="#ffdda1" d="M15.636 11.255L13.479 8.48l1.33-1.087a.5.5 0 0 1 .312-.112h3.76a1.49 1.49 0 0 0 0-2.98H15.12c-.803 0-1.581.278-2.202.787L8.23 9.036a1 1 0 0 1-.64.233h-5.1a1.49 1.49 0 1 0 0 2.98h5.002a3.97 3.97 0 0 0 2.566-.94l1.113-.941l2.246 2.889z"></path><path fill="#66e1ff" d="m22.79 9.57l-.834-2.292a1.635 1.635 0 0 0-1.888-.34a1.604 1.604 0 0 0-.74 1.831l.66 1.82a.496.496 0 0 1-.466.667h-3.887l-2.217 2.002v7.435a1.49 1.49 0 1 0 2.98 0v-6.458h2.999a3.66 3.66 0 0 0 1.974-.528a3.48 3.48 0 0 0 1.418-4.137"></path><path fill="#ffdda1" stroke="#191919" strokeLinecap="round" strokeLinejoin="round" d="M6.96 6.784a2.484 2.484 0 1 0 0-4.967a2.484 2.484 0 0 0 0 4.967" strokeWidth={1}></path><path stroke="#191919" strokeLinecap="round" strokeLinejoin="round" d="m19.327 8.77l.662 1.818a.497.497 0 0 1-.467.668h-3.885L13.479 8.48l1.33-1.087a.5.5 0 0 1 .312-.112h3.76a1.49 1.49 0 0 0 0-2.98H15.12c-.803 0-1.581.278-2.202.787L8.23 9.036a1 1 0 0 1-.64.233h-5.1a1.49 1.49 0 1 0 0 2.98h5.002a3.97 3.97 0 0 0 2.566-.94l1.113-.941l2.246 2.889v7.436a1.49 1.49 0 0 0 2.98 0v-6.458h2.999a3.66 3.66 0 0 0 1.974-.528a3.48 3.48 0 0 0 1.42-4.137l-.834-2.292m-8.539 5.979l2.218-2.002" strokeWidth={1}></path></g></svg>
+                    )}
+                    {index === 1 && (
+                      <svg xmlns="http://www.w3.org/2000/svg" width={128} height={128} viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.05 7.05 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.03 7.03 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.05 7.05 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"></path><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"></path><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"></path></svg>
+                    )}
+                    {index === 2 && (
+                      <svg xmlns="http://www.w3.org/2000/svg" width={32} height={32} viewBox="0 0 32 32"><g fill="none"><path fill="#f8312f" d="M6 6c4.665-2.332 8.5.5 10 2.5c1.5-2 5.335-4.832 10-2.5c6 3 4.5 10.5 0 15c-2.196 2.196-6.063 6.063-8.891 8.214a1.764 1.764 0 0 1-2.186-.041C12.33 27.08 8.165 23.165 6 21C1.5 16.5 0 9 6 6"></path><path fill="#ca0b4a" d="M16 8.5v3.05c1.27-2.685 4.425-6.27 9.658-5.713c-4.51-2.03-8.195.712-9.658 2.663m-4.054-2.963C10.26 4.95 8.225 4.887 6 6C0 9 1.5 16.5 6 21c2.165 2.165 6.33 6.08 8.923 8.173a1.764 1.764 0 0 0 2.186.04q.381-.29.785-.618c-2.854-2.143-6.86-5.519-9.035-7.462c-4.957-4.431-6.61-11.815 0-14.769a9.7 9.7 0 0 1 3.087-.827"></path><ellipse cx={23.477} cy={12.594} fill="#f37366" rx={2.836} ry={4.781} transform="rotate(30 23.477 12.594)"></ellipse></g></svg>
+                    )}
+                    {index === 3 && (
+                      <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} viewBox="0 0 40 40"><g fill="none"><g clipPath="url(#SVGw9scfcdR)"><path fill="#00034a" d="M14.527 7.172a18.2 18.2 0 0 1 2.815-4.28c.632-.66 2.7-1.666 3.916-.565a29.5 29.5 0 0 1 2.57 3.02a30 30 0 0 1 2.295 3.222a29.3 29.3 0 0 1 3.074 5.746a2.87 2.87 0 0 1-1.34 3.034a2.81 2.81 0 0 1-3.315 0a20 20 0 0 1-2.314-2.665q-.232-.275-.452-.56a1.9 1.9 0 0 1-.183.947c-.574 1.13-2.958 2.671-3.38 2.94a15.7 15.7 0 0 1-3.61 1.742c-.38.085-.778.036-1.127-.138c-.564-.282-1.408-1.38-1.66-1.938a16.2 16.2 0 0 1-.727-3.946c-.259-3.638.383-4.471.383-4.471a1.57 1.57 0 0 1 1.724-.881q.353.044.688.163c.11-.214.22-.456.33-.7c.103-.227.206-.458.313-.67m7.647 26.178a3.045 3.045 0 0 1 1.316-4.44a20.5 20.5 0 0 1 3.499-.476a2.1 2.1 0 0 1-.41-.541c-.43-.816-.188-3.49-.188-4.643c.009-1.326.183-2.644.517-3.927a1.704 1.704 0 0 1 1.915-1.1c1.29.359 2.532.877 3.696 1.541c1.341.757 3.797 2.188 4.405 3.877c.374.61.292 1.396-.201 1.915a4 4 0 0 1-.517.498l.067.105c.247.388.499.783.718 1.179a17.8 17.8 0 0 1 2.059 4.691c.2.833-.048 3.14-1.753 3.562a29.4 29.4 0 0 1-6.463.555a29.5 29.5 0 0 1-6.472-.555c-.906-.402-1.654-1.42-2.187-2.242zM10.773 19.946a2.81 2.81 0 0 0-3.304.172a29 29 0 0 0-3.715 5.324a29.4 29.4 0 0 0-2.777 5.89c-.488 1.603 1.647 3.987 3.103 4.414a17.8 17.8 0 0 0 5.084.574h.998c.303.462.848 1.23 1.27 1.536c.284.206.628.313.978.302c0 0 1.026.191 4.157-1.676a15.6 15.6 0 0 0 3.179-2.441a1.67 1.67 0 0 0 .411-1.096c0-.831-.766-1.625-1.283-2.216a15.7 15.7 0 0 0-3.141-2.48c-.373-.224-2.261-1.328-3.592-1.617a20 20 0 0 0 1.007-2.607a2.8 2.8 0 0 0-.265-1.727c-.405-.795-1.316-1.953-2.11-2.35z"></path><path stroke="#00034a" strokeMiterlimit={10} d="M14.527 7.172a18.2 18.2 0 0 1 2.815-4.28c.632-.66 2.7-1.666 3.916-.565a29.5 29.5 0 0 1 2.57 3.02a30 30 0 0 1 2.295 3.222a29.3 29.3 0 0 1 3.074 5.746a2.87 2.87 0 0 1-1.34 3.034a2.81 2.81 0 0 1-3.315 0a20 20 0 0 1-2.314-2.665q-.232-.275-.452-.56a1.9 1.9 0 0 1-.183.947c-.574 1.13-2.958 2.671-3.38 2.94a15.7 15.7 0 0 1-3.61 1.742c-.38.085-.778.036-1.127-.138c-.564-.282-1.408-1.38-1.66-1.938a16.2 16.2 0 0 1-.727-3.946c-.259-3.638.383-4.471.383-4.471a1.57 1.57 0 0 1 1.724-.881q.353.044.688.163c.11-.214.22-.456.33-.7c.103-.227.206-.458.313-.67Zm7.647 26.178a3.045 3.045 0 0 1 1.316-4.44a20.5 20.5 0 0 1 3.499-.476a2.1 2.1 0 0 1-.41-.541c-.43-.816-.188-3.49-.188-4.643c.009-1.326.183-2.644.517-3.927a1.704 1.704 0 0 1 1.915-1.1c1.29.359 2.532.877 3.696 1.541c1.341.757 3.797 2.188 4.405 3.877c.374.61.292 1.396-.201 1.915a4 4 0 0 1-.517.498l.067.105c.247.388.499.783.718 1.179a17.8 17.8 0 0 1 2.059 4.691c.2.833-.048 3.14-1.753 3.562a29.4 29.4 0 0 1-6.463.555a29.5 29.5 0 0 1-6.472-.555c-.906-.402-1.654-1.42-2.187-2.242zM10.773 19.946a2.81 2.81 0 0 0-3.304.172a29 29 0 0 0-3.715 5.324a29.4 29.4 0 0 0-2.777 5.89c-.488 1.603 1.647 3.987 3.103 4.414a17.8 17.8 0 0 0 5.084.574h.998c.303.462.848 1.23 1.27 1.536c.284.206.628.313.978.302c0 0 1.026.191 4.157-1.676a15.6 15.6 0 0 0 3.179-2.441a1.67 1.67 0 0 0 .411-1.096c0-.831-.766-1.625-1.283-2.216a15.7 15.7 0 0 0-3.141-2.48c-.373-.224-2.261-1.328-3.592-1.617a20 20 0 0 0 1.007-2.607a2.8 2.8 0 0 0-.265-1.727c-.405-.795-1.316-1.953-2.11-2.35z" strokeWidth={1}></path><path fill="#9bff00" stroke="#00034a" strokeMiterlimit={10} d="M38.178 30.91a17.8 17.8 0 0 0-2.058-4.692c-.24-.431-.518-.861-.786-1.283q.282-.225.517-.498a1.58 1.58 0 0 0 .201-1.916c-.374-.61-.344-.956-3.533-2.756a16.3 16.3 0 0 0-3.696-1.542a1.705 1.705 0 0 0-1.915 1.1a16 16 0 0 0-.517 3.927c0 .507 0 3.341.623 4.442c.185.312.457.562.784.72c-1.45.012-2.894.18-4.308.497c-2.141.953-2.448 3.867-.552 5.245q.26.188.552.318a29.5 29.5 0 0 0 6.472.556a29.4 29.4 0 0 0 6.463-.556c1.705-.421 1.955-2.728 1.753-3.562Z" strokeWidth={1}></path><path stroke="#00034a" strokeLinecap="round" strokeMiterlimit={10} d="M27.014 27.664a1.59 1.59 0 0 0 1.78.805a5 5 0 0 0 .68-.202c.23.45.48.9.718 1.322" strokeWidth={1}></path><path fill="#9bff00" stroke="#00034a" strokeMiterlimit={10} d="M17.342 2.891a18.2 18.2 0 0 0-2.815 4.282c-.221.44-.431.957-.642 1.369a3.3 3.3 0 0 0-.69-.163a1.57 1.57 0 0 0-1.724.88c-.303.655-.641.834-.383 4.472c.079 1.34.323 2.666.73 3.946a1.695 1.695 0 0 0 1.914.957a15.7 15.7 0 0 0 3.61-1.742c.422-.268 2.806-1.81 3.38-2.94c.156-.328.216-.693.172-1.054a20 20 0 0 0 2.777 3.333a2.81 2.81 0 0 0 3.313 0a2.87 2.87 0 0 0 1.34-3.035a29.3 29.3 0 0 0-3.073-5.746a29.5 29.5 0 0 0-3.993-5.123c-1.216-1.101-3.284-.096-3.916.564Z" strokeWidth={1}></path><path stroke="#00034a" strokeLinecap="round" strokeMiterlimit={10} d="M20.76 13.99a1.6 1.6 0 0 0-.296-1.916a5 5 0 0 0-.546-.46c.248-.44.498-.889.718-1.32" strokeWidth={1}></path><path fill="#9bff00" stroke="#00034a" strokeMiterlimit={10} d="M3.209 34.625c1.657.436 3.37.629 5.084.575h1.513q.05.356.163.699a1.59 1.59 0 0 0 1.57 1.14c.721-.021 1.024.19 4.156-1.676a15.6 15.6 0 0 0 3.179-2.442a1.666 1.666 0 0 0 0-2.193a15.7 15.7 0 0 0-3.141-2.48c-.43-.258-2.873-1.685-4.156-1.685a1.9 1.9 0 0 0-1.015.316a19.8 19.8 0 0 0 1.714-3.975a2.8 2.8 0 0 0-1.503-2.958a2.805 2.805 0 0 0-3.304.172a29 29 0 0 0-3.715 5.324a29.4 29.4 0 0 0-2.777 5.89c-.507 1.667 1.35 3.036 2.23 3.294z" strokeWidth={1}></path><path stroke="#00034a" strokeLinecap="round" strokeMiterlimit={10} d="M11.558 26.563a1.59 1.59 0 0 0-1.57 1.14a4.4 4.4 0 0 0-.163.698c-.507 0-1.015-.048-1.512-.048" strokeWidth={1}></path></g><defs><clipPath id="SVGw9scfcdR"><path fill="#fff" d="M0 0h40v40H0z"></path></clipPath></defs></g></svg>
+                    )}
                   </div>
-                  <h3 className={`text-lg font-semibold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>
+                  <h3 className="text-lg font-semibold mb-2 text-white">
                     {category.title}
                   </h3>
-                  <p className={`${isDark ? 'text-gray-300' : 'text-gray-700'}`}>
+                  <p className="text-white/80">
                     {category.description}
                   </p>
                 </div>
@@ -445,35 +479,30 @@ export default function About() {
                   {/* Social Media Icons */}
                   <div className="flex justify-center space-x-3">
                     <a
-                      href={member.socialLinks.twitter}
-                      className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-300"
+                      href="https://x.com/"
+                      className="w-8 h-8 rounded-full flex items-center justify-center text-white transition-colors duration-300 hover:opacity-90"
+                      style={{ backgroundColor: '#1DA1F2' }}
                     >
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
                       </svg>
                     </a>
                     <a
-                      href={member.socialLinks.facebook}
-                      className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-300"
+                      href="https://www.facebook.com/"
+                      className="w-8 h-8 rounded-full flex items-center justify-center text-white transition-colors duration-300 hover:opacity-90"
+                      style={{ backgroundColor: '#1877F2' }}
                     >
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                       </svg>
                     </a>
                     <a
-                      href={member.socialLinks.pinterest}
-                      className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-300"
+                      href="https://www.linkedin.com"
+                      className="w-8 h-8 rounded-full flex items-center justify-center text-white transition-colors duration-300 hover:opacity-90"
+                      style={{ backgroundColor: '#0A66C2' }}
                     >
                       <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001 12.017.001z"/>
-                      </svg>
-                    </a>
-                    <a
-                      href={member.socialLinks.vimeo}
-                      className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-colors duration-300"
-                    >
-                      <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M23.977 6.416c-.105 2.338-1.739 5.543-4.894 9.609-3.268 4.247-6.026 6.37-8.29 6.37-1.409 0-2.578-1.294-3.553-3.881L5.322 11.4C4.603 8.816 3.834 7.522 3.01 7.522c-.179 0-.806.378-1.881 1.132L0 7.197c1.185-1.044 2.351-2.084 3.501-3.128C5.08 2.701 6.266 1.984 7.055 1.91c1.867-.18 3.016 1.1 3.447 3.838.465 2.953.789 4.789.971 5.507.539 2.45 1.131 3.674 1.776 3.674.502 0 1.256-.796 2.265-2.385 1.004-1.589 1.54-2.797 1.612-3.628.144-1.371-.395-2.061-1.614-2.061-.574 0-1.167.121-1.777.391 1.186-3.868 3.434-5.757 6.762-5.637 2.473.06 3.628 1.664 3.493 4.797l-.013.01z"/>
+                        <path d="M4.983 3.5C4.983 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.483 1.12 2.483 2.5zM.5 8h4V24h-4V8zm7.5 0h3.837v2.186h.054c.534-1.012 1.84-2.08 3.787-2.08C19.74 8.106 22 9.87 22 13.584V24h-4v-8.648c0-2.062-.737-3.469-2.583-3.469c-1.409 0-2.247.949-2.615 1.865c-.135.33-.169.79-.169 1.252V24h-4V8z"/>
                       </svg>
                     </a>
                   </div>
@@ -507,7 +536,7 @@ export default function About() {
 
              <ScrollAnimation animation="slide-up" stagger="scroll-stagger-2">
                <h2 className="text-4xl font-extrabold mb-4 leading-tight text-white">
-                 {t('about.cta.title')} <span className="text-green-300 italic">{t('about.cta.titleAccent')}</span>
+                {t('about.cta.title')} {t('about.cta.titleAccent')}
                </h2>
              </ScrollAnimation>
 
@@ -544,37 +573,31 @@ export default function About() {
                  <div className={`rounded-2xl p-6 shadow-lg border ${
                    isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
                  }`}>
-                   <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                     </svg>
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width={128} height={128} viewBox="0 0 128 128"><path fill="#fdd835" d="m68.05 7.23l13.46 30.7a7.05 7.05 0 0 0 5.82 4.19l32.79 2.94c3.71.54 5.19 5.09 2.5 7.71l-24.7 20.75c-2 1.68-2.91 4.32-2.36 6.87l7.18 33.61c.63 3.69-3.24 6.51-6.56 4.76L67.56 102a7.03 7.03 0 0 0-7.12 0l-28.62 16.75c-3.31 1.74-7.19-1.07-6.56-4.76l7.18-33.61c.54-2.55-.36-5.19-2.36-6.87L5.37 52.78c-2.68-2.61-1.2-7.17 2.5-7.71l32.79-2.94a7.05 7.05 0 0 0 5.82-4.19l13.46-30.7c1.67-3.36 6.45-3.36 8.11-.01"></path><path fill="#ffff8d" d="m67.07 39.77l-2.28-22.62c-.09-1.26-.35-3.42 1.67-3.42c1.6 0 2.47 3.33 2.47 3.33l6.84 18.16c2.58 6.91 1.52 9.28-.97 10.68c-2.86 1.6-7.08.35-7.73-6.13"></path><path fill="#f4b400" d="M95.28 71.51L114.9 56.2c.97-.81 2.72-2.1 1.32-3.57c-1.11-1.16-4.11.51-4.11.51l-17.17 6.71c-5.12 1.77-8.52 4.39-8.82 7.69c-.39 4.4 3.56 7.79 9.16 3.97"></path></svg>
                    </div>
-                   <h3 className="text-lg font-bold text-white mb-2">{t('about.cta.trustIndicators.certifiedProfessionals.title')}</h3>
-                   <p className="text-white/80 text-sm">{t('about.cta.trustIndicators.certifiedProfessionals.description')}</p>
+                  <h3 className={`text-lg font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.cta.trustIndicators.certifiedProfessionals.title')}</h3>
+                  <p className={`${isDark ? 'text-white/80' : 'text-gray-700'} text-sm`}>{t('about.cta.trustIndicators.certifiedProfessionals.description')}</p>
                  </div>
 
                  <div className={`rounded-2xl p-6 shadow-lg border ${
                    isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
                  }`}>
-                   <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                       <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                     </svg>
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width={48} height={48} viewBox="0 0 48 48"><g fill="none" strokeLinejoin="round" strokeWidth={4}><path fill="#2f88ff" stroke="#000" d="M24 44C29.5228 44 34.5228 41.7614 38.1421 38.1421C41.7614 34.5228 44 29.5228 44 24C44 18.4772 41.7614 13.4772 38.1421 9.85786C34.5228 6.23858 29.5228 4 24 4C18.4772 4 13.4772 6.23858 9.85786 9.85786C6.23858 13.4772 4 18.4772 4 24C4 29.5228 6.23858 34.5228 9.85786 38.1421C13.4772 41.7614 18.4772 44 24 44Z"></path><path stroke="#fff" strokeLinecap="round" d="M16 24L22 30L34 18"></path></g></svg>
                    </div>
-                   <h3 className="text-lg font-bold text-white mb-2">{t('about.cta.trustIndicators.provenResults.title')}</h3>
-                   <p className="text-white/80 text-sm">{t('about.cta.trustIndicators.provenResults.description')}</p>
+                  <h3 className={`text-lg font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.cta.trustIndicators.provenResults.title')}</h3>
+                  <p className={`${isDark ? 'text-white/80' : 'text-gray-700'} text-sm`}>{t('about.cta.trustIndicators.provenResults.description')}</p>
                  </div>
 
                  <div className={`rounded-2xl p-6 shadow-lg border ${
                    isDark ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'
                  }`}>
-                   <div className="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
-                     <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                       <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
-                     </svg>
+                  <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width={128} height={128} viewBox="0 0 128 128"><path fill="#b0bec5" d="M16.77 19.75c-1 0-1.7.8-1.7 1.8v.1c-1.5 25.91 3.03 59.27 24.01 83.52c12.1 14.7 23.91 18.53 24.51 18.73c0 0 .28.09.54.09s.57-.1.57-.1c.5-.2 12.48-4.02 24.49-18.72c19.91-24.21 24.01-58.82 24.01-83.52v-.1c0-1-.8-1.8-1.7-1.8c-.3 0-29.11-1-46.01-15.3c-.7-.6-1.7-.6-2.4 0c-17.11 14.2-46.02 15.2-46.32 15.3"></path><path fill="#84b0c1" d="M111.49 19.75c-.3 0-29.11-1-46.01-15.3c-.4-.35-.83-.45-1.24-.45h-.11v120c.27-.01.62-.11.62-.12c.6-.25 12.44-4 24.44-18.7c19.91-24.21 24.01-58.82 24.01-83.52v-.1c0-1.01-.8-1.81-1.71-1.81"></path><path fill="#2f7889" d="M26.33 28.31c-.82 0-1.02 1.02-1.02 1.74v.1c0 19.72 3.06 47.4 19 66.71c9.6 11.75 19 14.81 19.41 14.91l.41.1l.41-.1c.41-.1 9.81-3.17 19.41-14.91c15.94-19.31 19-46.89 19-66.71v-.1c0-.82-.41-1.43-1.23-1.43h.1c-.2 0-23.19-.82-36.67-12.16c-1.19-.98-1.94-.2-1.94-.2C49.63 27.6 26.64 28.31 26.33 28.31"></path><path fill="#c9e3e6" d="M29.18 30.07c-.76 0-.94.96-.94 1.64v.1c0 18.57 2.83 44.65 17.57 62.84c8.88 11.07 17.57 13.95 17.95 14.05l.38.1l.38-.1c.38-.1 9.07-2.98 17.95-14.05c14.73-18.19 17.57-44.17 17.57-62.84v-.1c0-.77-.38-1.35-1.13-1.35H99c-.19 0-21.44-.77-33.91-11.45c-.94-.95-1.79-.19-1.79-.19C50.72 29.4 29.47 30.07 29.18 30.07"></path><path fill="#b0bec5" d="M98.89 30.36h.09c-.19 0-21.44-.77-33.91-11.45c-.34-.34-.66-.46-.94-.47v90.35l.38-.1c.38-.1 9.07-2.98 17.95-14.05c14.73-18.19 17.57-44.17 17.57-62.84v-.1c-.01-.76-.38-1.34-1.14-1.34"></path><circle cx={70.63} cy={14.44} r={1.93} fill="#37474f"></circle><circle cx={82.21} cy={19.67} r={1.93} fill="#37474f"></circle><circle cx={95.01} cy={23.21} r={1.93} fill="#37474f"></circle><circle cx={108.15} cy={25.14} r={1.93} fill="#37474f"></circle><circle cx={108.57} cy={36.94} r={1.93} fill="#37474f"></circle><circle cx={107.02} cy={50.76} r={1.93} fill="#37474f"></circle><circle cx={64.08} cy={118.11} r={1.93} fill="#37474f"></circle><circle cx={75.4} cy={112.71} r={1.93} fill="#37474f"></circle><circle cx={85.74} cy={102.71} r={1.93} fill="#37474f"></circle><circle cx={93.81} cy={91.27} r={1.93} fill="#37474f"></circle><circle cx={99.67} cy={79} r={1.93} fill="#37474f"></circle><circle cx={104.27} cy={64.65} r={1.93} fill="#37474f"></circle><circle cx={70.15} cy={13.8} r={1.93} fill="#b9e4ea"></circle><circle cx={81.73} cy={19.03} r={1.93} fill="#b9e4ea"></circle><circle cx={94.53} cy={22.57} r={1.93} fill="#b9e4ea"></circle><circle cx={107.66} cy={24.5} r={1.93} fill="#b9e4ea"></circle><circle cx={108.09} cy={36.3} r={1.93} fill="#b9e4ea"></circle><circle cx={106.53} cy={50.12} r={1.93} fill="#b9e4ea"></circle><circle cx={63.6} cy={117.47} r={1.93} fill="#eee"></circle><circle cx={74.92} cy={112.07} r={1.93} fill="#b9e4ea"></circle><circle cx={85.26} cy={102.07} r={1.93} fill="#b9e4ea"></circle><circle cx={93.33} cy={90.63} r={1.93} fill="#b9e4ea"></circle><circle cx={99.19} cy={78.36} r={1.93} fill="#b9e4ea"></circle><circle cx={103.79} cy={64.01} r={1.93} fill="#b9e4ea"></circle><circle cx={57.97} cy={14.44} r={1.93} fill="#2f7889"></circle><circle cx={46.39} cy={19.67} r={1.93} fill="#2f7889"></circle><circle cx={33.59} cy={23.21} r={1.93} fill="#2f7889"></circle><circle cx={20.45} cy={25.14} r={1.93} fill="#2f7889"></circle><circle cx={20.02} cy={36.94} r={1.93} fill="#2f7889"></circle><circle cx={21.58} cy={50.76} r={1.93} fill="#2f7889"></circle><circle cx={53.19} cy={112.71} r={1.93} fill="#2f7889"></circle><circle cx={42.86} cy={102.71} r={1.93} fill="#2f7889"></circle><circle cx={34.79} cy={91.27} r={1.93} fill="#2f7889"></circle><circle cx={28.92} cy={79} r={1.93} fill="#2f7889"></circle><circle cx={24.33} cy={64.65} r={1.93} fill="#2f7889"></circle><circle cx={57.54} cy={13.8} r={1.93} fill="#eee"></circle><circle cx={45.95} cy={19.03} r={1.93} fill="#eee"></circle><circle cx={33.16} cy={22.57} r={1.93} fill="#eee"></circle><circle cx={20.02} cy={24.5} r={1.93} fill="#eee"></circle><circle cx={19.59} cy={36.3} r={1.93} fill="#eee"></circle><circle cx={21.15} cy={50.12} r={1.93} fill="#eee"></circle><circle cx={52.76} cy={112.07} r={1.93} fill="#eee"></circle><circle cx={42.42} cy={102.07} r={1.93} fill="#eee"></circle><circle cx={34.36} cy={90.63} r={1.93} fill="#eee"></circle><circle cx={28.49} cy={78.36} r={1.93} fill="#eee"></circle><circle cx={23.89} cy={64.01} r={1.93} fill="#eee"></circle></svg>
                    </div>
-                   <h3 className="text-lg font-bold text-white mb-2">{t('about.cta.trustIndicators.personalizedCare.title')}</h3>
-                   <p className="text-white/80 text-sm">{t('about.cta.trustIndicators.personalizedCare.description')}</p>
+                  <h3 className={`text-lg font-bold mb-2 ${isDark ? 'text-white' : 'text-gray-900'}`}>{t('about.cta.trustIndicators.personalizedCare.title')}</h3>
+                  <p className={`${isDark ? 'text-white/80' : 'text-gray-700'} text-sm`}>{t('about.cta.trustIndicators.personalizedCare.description')}</p>
                  </div>
                </div>
              </ScrollAnimation>

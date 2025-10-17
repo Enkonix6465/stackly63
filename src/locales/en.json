@@ -55,6 +55,7 @@
     "passwordPlaceholder": "Enter your password",
     "signIn": "Sign in",
     "forgotPassword": "Forgot your password?",
+    "reset": "Reset",
     "noAccount": "Don't have an account?",
     "register": "Register",
     "errorEmailPassword": "Please enter email and password"
@@ -82,16 +83,39 @@
     "successEmailVerified": "Email verified! Please enter your new password.",
     "successPasswordReset": "Password reset successfully! Redirecting to login..."
   },
+  "register": {
+    "createAccount": "Create your account",
+    "joinUs": "Join us and get started",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstNamePlaceholder": "First name",
+    "lastNamePlaceholder": "Last name",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "At least 6 characters",
+    "confirmPasswordPlaceholder": "Re-enter your password",
+    "createAccountButton": "Create Account",
+    "forgotPassword": "Forgot your password?",
+    "reset": "Reset",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login",
+    "errorNameRequired": "Please enter your first and last name",
+    "errorEmailInvalid": "Please enter a valid email",
+    "errorPasswordLength": "Password must be at least 6 characters",
+    "errorPasswordsMismatch": "Passwords do not match"
+  },
   "home": {
     "showcase": {
       "title": "Transform Your Wellness Journey",
-      "subtitle": "Discover personalized health programs, expert guidance, and comprehensive wellness solutions designed to help you achieve your best life.",
+      "subtitle": "Discover personalized health programs and  comprehensive wellness solutions.",
       "exploreButton": "Start Your Journey",
       "reachOutButton": "Get Consultation"
     },
     "welcome": {
       "title": "Welcome to Your Wellness Journey",
-      "subtitle": "Transform your health and wellness with personalized programs designed for your unique needs. Our comprehensive approach combines nutrition, fitness, mental health, and lifestyle coaching to help you achieve lasting transformation.",
+      "subtitle": "Transform your health and wellness with personalized programs designed for your unique needs.",
       "stats": {
         "activeMembers": "Active Members",
         "successRate": "Success Rate",
@@ -654,7 +678,7 @@
       }
     },
     "wellnessProcess": {
-      "title": "Health and wellness platform for transformation",
+      "title": "Wellness platform for transformation",
       "subtitle": "Our health and wellness platform is designed to guide you through a journey of personal transformation. Through mindful practices, personalized guidance, and evidence-based techniques, we help you achieve optimal health, reduce stress, and cultivate lasting wellness habits.",
       "steps": {
         "step1": {
@@ -1367,6 +1391,93 @@
       "subtitle": "From energy healing to spiritual guidance, we create transformative experiences that awaken your inner healer.",
       "startProjectButton": "Start Your Journey",
       "viewServicesButton": "View Services"
+    }
+  },
+  "nutritionPlansPage": {
+    "showcase": {
+      "bookConsultation": "Book Nutrition Consultation"
+    },
+    "hero": {
+      "title": "Personalized Nutrition Plans",
+      "description": "Custom meal plans, macro tracking, and coaching to help you achieve weight loss, muscle building, or metabolic health goals — built around your lifestyle and food preferences.",
+      "benefits": {
+        "dietPlans": "Diet Plans for Every Goal",
+        "macroGuidance": "Macro & Calorie Guidance",
+        "weeklyCheckins": "Weekly Check-ins",
+        "habitBuilding": "Sustainable Habit Building"
+      },
+      "startPlanButton": "Start Your Plan",
+      "learnMoreButton": "Learn More"
+    },
+    "faq": {
+      "badge": "Nutrition FAQ",
+      "title": "Everything You Need to Know",
+      "questions": {
+        "q1": {
+          "question": "What's included in a personalized nutrition plan?",
+          "answer": "Your personalized plan includes: detailed meal plans with recipes, macro and calorie breakdowns, grocery shopping lists, meal prep guidance, portion control tips, and weekly progress tracking with adjustments based on your results."
+        },
+        "q2": {
+          "question": "Can you accommodate dietary restrictions and preferences?",
+          "answer": "Absolutely! We create plans for all dietary needs including vegetarian, vegan, keto, paleo, gluten-free, dairy-free, diabetic-friendly, PCOS-specific, and cultural/regional cuisines like Indian, Mediterranean, or Asian."
+        },
+        "q3": {
+          "question": "How soon will I see results with a nutrition plan?",
+          "answer": "Most clients notice improved energy levels within 1-2 weeks. Visible changes in weight, body composition, or health markers typically appear within 3-4 weeks when following the plan consistently."
+        },
+        "q4": {
+          "question": "Do I need to buy expensive supplements or specialty foods?",
+          "answer": "No! Our plans prioritize whole foods accessible from your local grocery store. Supplements are recommended only when medically necessary or if there are specific deficiencies. We focus on sustainable, real-food-based nutrition."
+        },
+        "q5": {
+          "question": "Will I get ongoing support and plan adjustments?",
+          "answer": "Yes! You receive weekly or bi-weekly check-ins via chat/call, ongoing plan modifications based on your progress, lifestyle changes, and feedback. We adapt your plan as your body and goals evolve."
+        }
+      }
+    },
+    "testimonials": {
+      "title": "Success Stories from Our Clients",
+      "subtitle": "Real transformations from people who trusted us with their nutrition journey",
+      "client1": {
+        "name": "Sarah Patel",
+        "role": "Lost 15kg in 4 months",
+        "content": "The personalized meal plans made all the difference. I never felt deprived, and the weekly check-ins kept me accountable. Best investment in my health!"
+      },
+      "client2": {
+        "name": "Raj Kumar",
+        "role": "Built muscle & improved energy",
+        "content": "As a vegetarian, I struggled to meet my protein goals. The customized plan with Indian meals helped me gain lean muscle while enjoying the food I love."
+      },
+      "client3": {
+        "name": "Maya Ahmed",
+        "role": "Reversed pre-diabetes",
+        "content": "The nutrition guidance was evidence-based and easy to follow. My blood sugar levels normalized in 3 months, and I feel more energetic than ever."
+      },
+      "client4": {
+        "name": "David Lee",
+        "role": "Corporate professional",
+        "content": "With a hectic work schedule, I needed practical solutions. The meal prep guidance and quick recipes fit perfectly into my busy lifestyle."
+      }
+    },
+    "programs": {
+      "title": "Our Specialized Nutrition Programs",
+      "subtitle": "Comprehensive nutrition solutions for every health goal",
+      "list": {
+        "weightLoss": "Weight Loss Meal Plans",
+        "muscleBuilding": "Muscle Building Nutrition",
+        "keto": "Keto & Low-Carb Diets",
+        "diabetic": "Diabetic Diet Plans",
+        "pcos": "PCOS Diet Management",
+        "cardiac": "Cardiac Care Nutrition",
+        "prenatal": "Prenatal Nutrition",
+        "fasting": "Intermittent Fasting Plans"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Nutrition?",
+      "description": "Get a plan that fits your goals, schedule, and taste. Start feeling better, eating smarter, and living healthier — one meal at a time.",
+      "consultationButton": "Get Your Free Consultation",
+      "servicesButton": "Explore Services"
     }
   },
   "blogPage": {
