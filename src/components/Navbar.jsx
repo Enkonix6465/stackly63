@@ -40,24 +40,24 @@ export default function Navbar({ user }) {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b border-black/10 dark:border-white/10 transition-colors ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}
+      className={`sticky top-0 z-50 border-b border-black/10 dark:border-white/10 transition-colors ${isDark ? 'bg-gray-900 text-white' : 'bg-white text-black'} caret-transpetion`}
     >
-      <nav className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <nav className="flex items-center justify-between max-w-6xl px-4 py-3 mx-auto">
         {/* Logo - Fixed Left */}
         <div className="flex-shrink-0">
-          <a href="#hero" className="flex items-center gap-3">
-            <img src="/Logo.jpg" alt="Logo" className="h-8 w-auto" />
+          <a href="/home" className="flex items-center gap-3">
+            <img src="/Logo.jpg" alt="Logo" className="w-auto h-8" />
             <span className="sr-only">Home</span>
           </a>
         </div>
 
-        <ul className="hidden md:flex items-center gap-8">
+        <ul className="items-center hidden gap-8 md:flex">
           <li>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="inline-flex items-center gap-1 hover:text-green-500 dark:hover:text-green-400 transition-colors">
+                <button className="inline-flex items-center gap-1 transition-colors hover:text-green-500 dark:hover:text-green-400">
                   {t('nav.home')}
-                  <ChevronDown className="h-4 w-4" />
+                  <ChevronDown className="w-4 h-4" />
                 </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-52">
@@ -72,7 +72,7 @@ export default function Navbar({ user }) {
           </li>
           
           <li>
-            <button onClick={() => navigate('/about')} className="hover:text-green-500 dark:hover:text-green-400 transition-colors">
+            <button onClick={() => navigate('/about')} className="transition-colors hover:text-green-500 dark:hover:text-green-400">
               {t('nav.about')}
             </button>
           </li>
@@ -80,9 +80,9 @@ export default function Navbar({ user }) {
           <li>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <button className="inline-flex items-center gap-1 hover:text-green-500 dark:hover:text-green-400 transition-colors">
+                <button className="inline-flex items-center gap-1 transition-colors hover:text-green-500 dark:hover:text-green-400">
                   {t('nav.services')}
-                  <ChevronDown className="h-4 w-4" />
+                  <ChevronDown className="w-4 h-4" />
                 </button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-56">
@@ -95,7 +95,7 @@ export default function Navbar({ user }) {
                 </DropdownMenuItem>
                 
                 {/* Separator */}
-                <div className="h-px bg-gray-200 dark:bg-gray-700 mx-2 my-1" />
+                <div className="h-px mx-2 my-1 bg-gray-200 dark:bg-gray-700" />
                 
                 {[
                   {label: t('nav.sportsTraining'), path:'/services/sports-training'},
@@ -117,12 +117,12 @@ export default function Navbar({ user }) {
           </li>
 
           <li>
-            <button onClick={() => navigate('/blog')} className="hover:text-green-500 dark:hover:text-green-400 transition-colors">
+            <button onClick={() => navigate('/blog')} className="transition-colors hover:text-green-500 dark:hover:text-green-400">
               {t('nav.blog')}
             </button>
           </li>
           <li>
-            <button onClick={() => navigate('/contact')} className="hover:text-green-500 dark:hover:text-green-400 transition-colors">
+            <button onClick={() => navigate('/contact')} className="transition-colors hover:text-green-500 dark:hover:text-green-400">
               {t('nav.contact')}
             </button>
           </li>
@@ -136,8 +136,8 @@ export default function Navbar({ user }) {
           <ThemeToggle />
           
           {/* Mobile Menu Button */}
-          <button className="md:hidden inline-flex items-center justify-center rounded-md border border-black/10 dark:border-white/10 px-3 py-2 hover:bg-black/5 dark:hover:bg-white/5" aria-label="Menu">
-            <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          <button className="inline-flex items-center justify-center px-3 py-2 border rounded-md md:hidden border-black/10 dark:border-white/10 hover:bg-black/5 dark:hover:bg-white/5" aria-label="Menu">
+            <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <line x1="3" y1="12" x2="21" y2="12"></line>
               <line x1="3" y1="6" x2="21" y2="6"></line>
               <line x1="3" y1="18" x2="21" y2="18"></line>
@@ -145,18 +145,18 @@ export default function Navbar({ user }) {
           </button>
 
           {/* User Avatar */}
-          <div className="h-9 w-9 rounded-full bg-green-500 dark:bg-green-600 text-white grid place-items-center font-semibold select-none">
+          <div className="grid font-semibold text-white bg-green-500 rounded-full select-none h-9 w-9 dark:bg-green-600 place-items-center">
             {initials}
           </div>
           
           {/* Logout Button - Right Corner (icon only) */}
           <button
             onClick={handleLogout}
-            className="hover:text-green-500 dark:hover:text-green-400 transition-colors inline-flex items-center justify-center"
+            className="inline-flex items-center justify-center transition-colors hover:text-green-500 dark:hover:text-green-400"
             aria-label={t('nav.logout')}
             title={t('nav.logout')}
           >
-            <LogOut className="h-5 w-5" />
+            <LogOut className="w-5 h-5" />
             <span className="sr-only">{t('nav.logout')}</span>
           </button>
         </div>

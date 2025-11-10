@@ -1,5 +1,6 @@
-export const USERS_KEY = 'users';
-export const AUTH_KEY = 'authUser';
+/* eslint-disable no-unused-vars */
+export const USERS_KEY = "users";
+export const AUTH_KEY = "authUser";
 
 function safelyParseJson(jsonString, fallback) {
   try {
@@ -14,7 +15,7 @@ export function getUsers() {
   const raw = localStorage.getItem(USERS_KEY);
   // console.log(' Retrieving users from localStorage:', raw);
   const users = safelyParseJson(raw, []);
- // Handle different cases
+  // Handle different cases
   if (Array.isArray(users)) {
     console.log(" Users retrieved (array):", users);
     return users;
@@ -35,7 +36,9 @@ export function saveUsers(users) {
 }
 
 export function registerUser({ firstName, lastName, email, password }) {
-  const normalizedEmail = String(email || '').trim().toLowerCase();
+  const normalizedEmail = String(email || "")
+    .trim()
+    .toLowerCase();
 
   const existingUsers = getUsers();
   const alreadyExists = existingUsers.some(
@@ -43,7 +46,7 @@ export function registerUser({ firstName, lastName, email, password }) {
   );
 
   if (alreadyExists) {
-    return { success: false, message: 'Email already registered' };
+    return { success: false, message: "Email already registered" };
   }
 
   const newUser = {
@@ -56,58 +59,55 @@ export function registerUser({ firstName, lastName, email, password }) {
 
   const updatedUsers = saveUsers([...existingUsers, newUser]);
 
-  console.log(' User registered successfully:', newUser);
-  console.log(' All users after registration:', updatedUsers);
+  console.log(" User registered successfully:", newUser);
+  console.log(" All users after registration:", updatedUsers);
 
-  return { success: true, message: 'Registered successfully', user: newUser };
+  return { success: true, message: "Registered successfully", user: newUser };
 }
 
-
 export function loginUser(email, password) {
-  const normalizedEmail = String(email || '').trim().toLowerCase();
+  const normalizedEmail = String(email || "")
+    .trim()
+    .toLowerCase();
   const users = getUsers();
-  console.log(' Attempting login for:',users)  ;
+  console.log(" Attempting login for:", users);
 
   const found = users.find(
-    u => String(u.email).toLowerCase() === normalizedEmail && u.password === password
+    (u) =>
+      String(u.email).toLowerCase() === normalizedEmail &&
+      u.password === password
   );
-  
-   
 
-
-  if (!found) return { success: false, message: 'Invalid email or password' };
+  if (!found) return { success: false, message: "Invalid email or password" };
 
   // Keep password also
   const userWithLoginTime = {
     ...found,
-    loginTime: new Date().toISOString()
+    loginTime: new Date().toISOString(),
   };
-  
 
   // Store full user object in both places
-  localStorage.setItem(USERS_KEY, JSON.stringify(users));  // keep list of all users
+  localStorage.setItem(USERS_KEY, JSON.stringify(users)); // keep list of all users
   localStorage.setItem(AUTH_KEY, JSON.stringify(userWithLoginTime)); // currently logged in user
 
-  return { success: true, message: 'Logged in', user: userWithLoginTime };
+  return { success: true, message: "Logged in", user: userWithLoginTime };
 }
-
-
 
 export function logoutUser() {
   const userData = getCurrentUser();
 
   if (userData) {
-    console.log('👋 Logging out user:', userData.email);
-    
+    console.log("👋 Logging out user:", userData.email);
+
     // If it's a regular user (not admin), update their logout time in the users list
-    if (userData.role !== 'admin') {
+    if (userData.role !== "admin") {
       const users = getUsers();
-      const userIndex = users.findIndex(u => u.id === userData.id);
-      
+      const userIndex = users.findIndex((u) => u.id === userData.id);
+
       if (userIndex !== -1) {
         users[userIndex] = {
           ...users[userIndex],
-          logoutTime: new Date().toISOString()
+          logoutTime: new Date().toISOString(),
         };
         saveUsers(users);
       }
@@ -116,9 +116,8 @@ export function logoutUser() {
 
   // Remove authenticated user
   localStorage.removeItem(AUTH_KEY);
-  console.log('✅ User logged out successfully');
+  console.log("✅ User logged out successfully");
 }
-
 
 export function getCurrentUser() {
   const raw = localStorage.getItem(AUTH_KEY);
@@ -131,40 +130,39 @@ export function isAuthenticated() {
 
 export function isAdmin() {
   const user = getCurrentUser();
-  return user && (user.role === 'admin' || user.isAdmin === true);
+  return user && (user.role === "admin" || user.isAdmin === true);
 }
 
 export function resetPassword(email, newPassword) {
-  const normalizedEmail = String(email || '').trim().toLowerCase();
+  const normalizedEmail = String(email || "")
+    .trim()
+    .toLowerCase();
   const users = getUsers();
-  
+
   // Find user with matching email
   const userIndex = users.findIndex(
-    u => String(u.email).toLowerCase() === normalizedEmail
+    (u) => String(u.email).toLowerCase() === normalizedEmail
   );
-  
+
   if (userIndex === -1) {
-    return { success: false, message: 'User not found' };
+    return { success: false, message: "User not found" };
   }
-  
+
   // Update user's password
   const updatedUsers = [...users];
   updatedUsers[userIndex] = {
     ...updatedUsers[userIndex],
     password: newPassword,
-    passwordResetTime: new Date().toISOString()
+    passwordResetTime: new Date().toISOString(),
   };
-  
+
   // Save updated users
   saveUsers(updatedUsers);
-  
-  console.log('✅ Password reset successfully for:', normalizedEmail);
-  
-  return { success: true, message: 'Password reset successfully' };
+
+  console.log("✅ Password reset successfully for:", normalizedEmail);
+
+  return { success: true, message: "Password reset successfully" };
 }
-
-
-
 
 // new file: src/utils/auth.js
 
@@ -226,7 +224,6 @@ export function resetPassword(email, newPassword) {
 //   return { success: true, message: "Registered successfully", user: newUser };
 // }
 
-
 // // Login user
 // export function loginUser(email, password) {
 //   const normalizedEmail = String(email || "").trim().toLowerCase();
@@ -256,7 +253,6 @@ export function resetPassword(email, newPassword) {
 
 //   return { success: true, message: "Logged in", user: loggedInUser };
 // }
-
 
 // // Logout user
 // export function logoutUser() {

@@ -1,9 +1,9 @@
-import { useState, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Link, useNavigate } from 'react-router-dom'
 import { LanguageSelector } from '../components/language-selector'
 import { ThemeToggle } from '../components/theme-toggle'
-import { loginUser, getUsers, saveUsers } from '../utils/auth'
+import { loginUser } from '../utils/auth'
 
 export default function Login() {
   const navigate = useNavigate()
@@ -33,7 +33,7 @@ export default function Login() {
     }
 
     // Check for admin credentials
-    if ((email === "admin@enkonix.in" || email === "admin@enkonix.com") && password === "admin123") {
+    if ((email === "admin@enkonix.in" ) && password === "admin123") {
       console.log('✅ Admin credentials detected')
       
       // Create admin user object (DO NOT add to users list)
@@ -85,11 +85,11 @@ export default function Login() {
             ? "bg-gray-800/90 border-gray-700/30" 
             : "bg-white/90 border-gray-200/30"
         }`}>
-          <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+          <div className="flex items-center justify-between max-w-6xl px-4 py-3 mx-auto">
             {/* Logo */}
             <div className="flex-shrink-0">
-              <Link to="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
-                <img src="/Logo.jpg" alt="Logo" className="h-8 w-auto" />
+              <Link to="/" className="flex items-center gap-3 transition-opacity hover:opacity-80">
+                <img src="/Logo.jpg" alt="Logo" className="w-auto h-8" />
               </Link>
             </div>
             
@@ -102,7 +102,7 @@ export default function Login() {
         </header>
       </div>
       
-      <div className="relative z-10 flex h-screen items-center justify-center p-6">
+      <div className="relative z-10 flex items-center justify-center h-screen p-6">
         <div className="w-full max-w-lg lg:max-w-xl animate-fade-in">
           <div className={`backdrop-blur-xl rounded-2xl shadow-2xl p-8 lg:p-10 animate-slide-up ${
             isDark 
@@ -110,7 +110,7 @@ export default function Login() {
               : "bg-white/10 border-white/20 text-white"
           }`}>
             <div className="mb-6 text-center">
-              <h2 className="text-3xl lg:text-4xl font-bold tracking-tight">{t('login.welcomeBack')}</h2>
+              <h2 className="text-3xl font-bold tracking-tight lg:text-4xl">{t('login.welcomeBack')}</h2>
               <p className={`mt-1 ${
                 isDark ? "text-gray-300" : "text-white/70"
               }`}>{t('login.loginToContinue')}</p>
@@ -160,7 +160,7 @@ export default function Login() {
                 }`}>{error}</div>
               )}
 
-              <button type="submit" className="w-full btn-animate-strong rounded-lg px-8 py-4 font-bold text-lg transition-all duration-300 text-white shadow-lg hover:shadow-xl" style={{ backgroundColor: '#4CAF50' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#45a049'} onMouseLeave={(e) => e.target.style.backgroundColor = '#4CAF50'}>
+              <button type="submit" className="w-full px-8 py-4 text-lg font-bold text-white transition-all duration-300 rounded-lg shadow-lg btn-animate-strong hover:shadow-xl" style={{ backgroundColor: '#4CAF50' }} onMouseEnter={(e) => e.target.style.backgroundColor = '#45a049'} onMouseLeave={(e) => e.target.style.backgroundColor = '#4CAF50'}>
                 {t('login.signIn')}
               </button>
             </form>
